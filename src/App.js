@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 
 import MyNavbar from "./components/Navbar.js"; // Use only one Navbar
 import Footer from "./components/Footer.js";
@@ -19,7 +19,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 
 AOS.init();
 
