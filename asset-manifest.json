@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alameenwebdesign.github.io/static/css/main.08d7c81c.css",
-    "main.js": "/alameenwebdesign.github.io/static/js/main.36714670.js",
+    "main.js": "/alameenwebdesign.github.io/static/js/main.c776ae01.js",
     "static/media/portfoliovid3.mp4": "/alameenwebdesign.github.io/static/media/portfoliovid3.7b33711eda45d198ef5a.mp4",
     "static/media/fa-solid-900.ttf": "/alameenwebdesign.github.io/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/brand2.webp": "/alameenwebdesign.github.io/static/media/brand2.418d918fde9d975ad2e3.webp",
@@ -35,10 +35,10 @@
     "static/media/fa-v4compatibility.woff2": "/alameenwebdesign.github.io/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/alameenwebdesign.github.io/index.html",
     "main.08d7c81c.css.map": "/alameenwebdesign.github.io/static/css/main.08d7c81c.css.map",
-    "main.36714670.js.map": "/alameenwebdesign.github.io/static/js/main.36714670.js.map"
+    "main.c776ae01.js.map": "/alameenwebdesign.github.io/static/js/main.c776ae01.js.map"
   },
   "entrypoints": [
     "static/css/main.08d7c81c.css",
-    "static/js/main.36714670.js"
+    "static/js/main.c776ae01.js"
   ]
 }
