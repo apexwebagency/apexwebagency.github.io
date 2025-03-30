@@ -1,4 +1,4 @@
-import {HashRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import MyNavbar from "./components/Navbar.js"; // Use only one Navbar
 import Footer from "./components/Footer.js";
