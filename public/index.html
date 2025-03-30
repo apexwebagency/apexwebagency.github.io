@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React App</title>
+    <script>
+      var redirectTo = location.pathname;
+      if (redirectTo !== "/" && !redirectTo.startsWith("/?")) {
+        location.replace(
+          "https://alameenwebdesign.github.io/alameenwebdesign" + redirectTo
+        );
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
