@@ -1,18 +1,18 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 
-import MyNavbar from "./components/Navbar.js"; // Use only one Navbar
+import MyNavbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Portfolio from "./pages/Portfolio.js";
-import Services from "./pages/Services.js"; // Import Services page
+import Services from "./pages/Services.js";
 import Contact from "./pages/Contact.js";
 import Project1 from "./pages/portfolio/Project1.js";
 import Project2 from "./pages/portfolio/Project2.js";
 import Project3 from "./pages/portfolio/Project3.js";
 import PrivacyPolicy from "./pages/legal/Privacy-Policy.js";
 import Terms_and_conditons from "./pages/legal/Terms & Conditions.js";
-import "./styles/global.css"; // Import global styles
+import "./styles/global.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -25,13 +25,11 @@ AOS.init();
 
 function App() {
   useEffect(() => {
-    // Prevent horizontal scrolling
     document.documentElement.style.overflowX = "hidden";
     document.documentElement.style.width = "100%";
     document.body.style.overflowX = "hidden";
     document.body.style.width = "100%";
 
-    // Cleanup on unmount
     return () => {
       document.documentElement.style.overflowX = "";
       document.documentElement.style.width = "";
