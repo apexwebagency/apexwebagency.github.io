@@ -77,6 +77,51 @@
   letter-spacing: 0.5px;
 }
 
+/* Mobile-Only Enhancements */
+@media (max-width: 768px) {
+  .about-custom-section {
+    padding: 50px 20px; /* Reduce padding for better spacing */
+    border-radius: 15px; /* Slightly reduce border-radius for smaller screens */
+  }
+
+  .about-custom-heading {
+    font-size: 1.8rem; /* Adjust heading size for better readability */
+    margin-bottom: 15px;
+  }
+
+  .about-custom-subheading {
+    font-size: 1.2rem; /* Reduce subheading size */
+    margin-bottom: 25px;
+  }
+
+  .about-custom-carousel {
+    border-radius: 15px;
+  }
+
+  .about-custom-carousel-img {
+    height: 250px; /* Reduce image height for better mobile scaling */
+    border-radius: 15px;
+  }
+
+  .about-custom-description {
+    font-size: 1rem; /* Adjust text size for readability */
+    max-width: 100%; /* Allow full width usage */
+    padding: 0 15px;
+    line-height: 1.6;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%; /* Adjust controls size for better UX */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 /* What Makes Us Different Section - Enhanced Professional Styling */
 .about-custom-difference-section-unique {
   background: linear-gradient(135deg, #0d0d0d, #1c1c1c);

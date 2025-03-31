@@ -1,19 +1,56 @@
-import {useEffect} from "react";
-import {Link} from "react-router-dom";
+import {useEffect, useState, useRef} from "react";
+import {Link, useNavigate} from "react-router-dom";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {useInView} from "framer-motion";
+import {motion} from "framer-motion";
+import {CheckCircle, XCircle} from "lucide-react";
 import Team1 from "../assets/images/Team1.webp";
 import Team2 from "../assets/images/Team2.webp";
 import Team3 from "../assets/images/Team3.webp";
 import SpeedTest from "../assets/images/speed-test.png";
 import CustomWebsite from "../assets/images/custom-website.webp";
-import Infographic from "../assets/images/infographic.webp"; // New infographic image import
-import professionalPortrait from "../assets/images/professional-image.jpg"; // New professional portrait image import
-import work from "../assets/images/work-in-action.jpg"; // New work-in-action image import
+import Infographic from "../assets/images/infographic.webp";
+import professionalPortrait from "../assets/images/professional-image.jpg";
+import work from "../assets/images/work-in-action.jpg";
 import "../styles/about.css";
 import SocialProof from "../components/SocialProof.js";
 
 const About = () => {
+  const ref = useRef(null);
+  // Lower the inView threshold to trigger animations sooner
+  const isInView = useInView(ref, {once: false, amount: 0.1});
+  const [counts, setCounts] = useState({
+    clients: 0,
+    projects: 0,
+    satisfaction: 0,
+  });
+
+  useEffect(() => {
+    if (isInView) {
+      const animateCounter = (endValue, key) => {
+        let currentValue = 0;
+        const increment = endValue / 40;
+
+        const counter = setInterval(() => {
+          currentValue += increment;
+          if (currentValue >= endValue) {
+            clearInterval(counter);
+            setCounts((prev) => ({...prev, [key]: endValue}));
+          } else {
+            setCounts((prev) => ({...prev, [key]: Math.floor(currentValue)}));
+          }
+        }, 50);
+      };
+
+      animateCounter(500, "clients");
+      animateCounter(1200, "projects");
+      animateCounter(99, "satisfaction");
+    }
+  }, [isInView]);
+
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top on page load
 
@@ -172,60 +209,83 @@ const About = () => {
       </section>
 
       {/* Profit-Generating Websites Section */}
-      <section className="container py-5 text-center about-profit-section mb-5 unique-profit-section">
-        <h2 className="fw-bold display-5 text-uppercase about-profit-heading unique-profit-heading">
-          How We Turn Websites into Profit-Generating Machines
-        </h2>
-        <div className="row mt-4 gx-4 gy-4 unique-profit-row">
-          {" "}
-          {/* Added gx-4 for horizontal spacing */}
-          {/* Why Most Websites Fail */}
-          <div
-            className="col-md-6 p-4 rounded border border-danger shadow-sm unique-profit-fail-col"
-            style={{backgroundColor: "#FFECEC"}}
+      <section ref={ref} className="v2-showcase-container">
+        <motion.div
+          className="v2-content-wrapper"
+          initial={{opacity: 0}}
+          animate={isInView ? {opacity: 1} : {}}
+          transition={{duration: 0.4, ease: "easeOut"}}
+        >
+          <motion.h2
+            className="v2-heading"
+            initial={{opacity: 0, y: 0}}
+            animate={isInView ? {opacity: 1, y: 0} : {}}
+            transition={{duration: 0.4, ease: "easeOut"}}
           >
-            <h3 className="text-danger fw-bold unique-profit-fail-heading d-flex align-items-center">
-              ❌ Why Most Websites Fail
-            </h3>
-            <ul className="list-unstyled text-start fs-5 text-dark unique-profit-fail-list">
-              <li className="unique-profit-fail-item">
-                🚨 94% of users judge a business by its website.
-              </li>
-              <li className="unique-profit-fail-item">
-                ⚡ 47% of visitors expect sites to load in under 2 seconds.
-              </li>
-              <li className="unique-profit-fail-item">
-                💰 Weak messaging = lost sales & missed opportunities.
-              </li>
-              <li className="unique-profit-fail-item">
-                🔎 Unoptimized websites rank lower on Google.
-              </li>
-            </ul>
-          </div>
-          {/* How We Make You Win */}
-          <div
-            className="col-md-6 p-4 rounded border border-success shadow-sm unique-profit-win-col"
-            style={{backgroundColor: "#ECFFE1"}}
+            97% of Businesses Fail Online. <br /> Yours Won’t—If You Act Now! 🚀
+          </motion.h2>
+
+          <motion.p
+            className="v2-description"
+            initial={{opacity: 0}}
+            animate={isInView ? {opacity: 1} : {}}
+            transition={{delay: 0.1, duration: 0.4}}
           >
-            <h3 className="text-success fw-bold unique-profit-win-heading d-flex align-items-center">
-              ✅ How We Make You Win 🏆
-            </h3>
-            <ul className="list-unstyled text-start fs-5 text-dark unique-profit-win-list">
-              <li className="unique-profit-win-item">
-                🎨 Visually stunning, conversion-driven design.
-              </li>
-              <li className="unique-profit-win-item">
-                ⚡ Ultra-fast performance & 99.9% uptime.
-              </li>
-              <li className="unique-profit-win-item">
-                ✍️ High-impact copywriting that turns visitors into buyers.
-              </li>
-              <li className="unique-profit-win-item">
-                🔝 SEO-powered content to dominate Google rankings.
-              </li>
-            </ul>
+            Every second your website isn’t converting,{" "}
+            <strong>you’re losing money.</strong>
+            <br />
+            <span className="v2-text-highlight">
+              88% of visitors never return
+            </span>{" "}
+            after a poor experience.
+            <br />
+            We guarantee that NEVER happens to you.
+          </motion.p>
+
+          <div className="v2-grid">
+            <motion.div
+              className="v2-card"
+              // Red card slides in from the left
+              initial={{opacity: 0, x: -50}}
+              animate={isInView ? {opacity: 1, x: 0} : {}}
+              transition={{duration: 0.4, ease: "easeOut"}}
+            >
+              <div className="v2-card-header">
+                <XCircle className="v2-icon v2-text-danger" />
+                <h3>Why Most Websites Fail ❌</h3>
+              </div>
+              <ul>
+                <li>🚨 94% of users judge a business by its website.</li>
+                <li>
+                  ⚡ 47% of visitors expect sites to load in under 2 seconds.
+                </li>
+                <li>💰 Weak messaging = lost sales & missed opportunities.</li>
+                <li>🔎 Unoptimized websites rank lower on Google.</li>
+              </ul>
+            </motion.div>
+
+            <motion.div
+              className="v2-card"
+              // Green card slides in from the right
+              initial={{opacity: 0, x: 50}}
+              animate={isInView ? {opacity: 1, x: 0} : {}}
+              transition={{duration: 0.4, ease: "easeOut"}}
+            >
+              <div className="v2-card-header">
+                <CheckCircle className="v2-icon v2-text-success" />
+                <h3>How We Make You Win 🏆</h3>
+              </div>
+              <ul>
+                <li>🎨 Visually stunning, conversion-driven design.</li>
+                <li>⚡ Ultra-fast performance & 99.9% uptime.</li>
+                <li>
+                  ✍️ High-impact copywriting that turns visitors into buyers.
+                </li>
+                <li>🔝 SEO-powered content to dominate Google rankings.</li>
+              </ul>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
         <div className="mt-5 unique-profit-infographic-container">
           <img
             src={Infographic}
