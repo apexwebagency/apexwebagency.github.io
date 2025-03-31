@@ -50,6 +50,29 @@
   background-color: #0088cc;
 }
 
+/* ===== MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 15px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .hero-text {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
 /* ========== TRUST & AUTHORITY SECTION ========== */
 .trust-section {
   text-align: center;
@@ -66,13 +89,16 @@
 .brand-logos {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 40px;
   margin-bottom: 20px;
+  flex-wrap: nowrap; /* Prevent vertical stacking */
 }
 
 .brand-logos img {
-  width: 120px;
-  height: auto;
+  width: 150px; /* Slightly increased size */
+  height: 80px; /* Slightly increased height */
+  object-fit: contain; /* Maintain aspect ratio within set height */
   filter: grayscale(100%);
   transition: filter 0.3s ease-in-out;
 }
@@ -85,6 +111,30 @@
   font-size: 1.2rem;
   color: #555;
   font-weight: bold;
+}
+
+/* ========== MOBILE RESPONSIVENESS ========== */
+@media (max-width: 768px) {
+  .brand-logos {
+    gap: 10px; /* Reduce gap to fit images properly */
+    justify-content: space-between; /* Space out images evenly */
+    overflow: hidden;
+    padding: 0 10px;
+  }
+
+  .brand-logos img {
+    width: 38%; /* Slightly increased size while maintaining fit */
+    max-width: 110px; /* Slightly larger max width */
+    height: 65px; /* Slightly increased height */
+  }
+
+  .trust-title {
+    font-size: 2rem; /* Slightly reduce title size for better fit */
+  }
+
+  .quick-stats {
+    font-size: 1rem; /* Optimize text size for mobile */
+  }
 }
 
 /* ========== TESTIMONIAL SLIDER ========== */

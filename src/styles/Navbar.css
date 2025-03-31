@@ -12,3 +12,46 @@
   color: #2c3e50 !important;
   font-weight: bold !important;
 }
+
+/* Navbar Brand and Toggle Alignment */
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Ensure Navbar expands fully on mobile */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: white; /* Ensures clear visibility */
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .custom-nav-link {
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Soft separation */
+  }
+
+  .custom-nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+}

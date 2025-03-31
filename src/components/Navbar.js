@@ -20,22 +20,30 @@ function MyNavbar() {
       expanded={expanded}
     >
       <Container>
-        {/* Brand / Logo */}
-        <BootstrapNavbar.Brand
-          as={NavLink}
-          to="/"
-          className="d-flex align-items-center"
-          onClick={handleLinkClick}
-        >
-          <img src={logo} alt="Logo" width="40" height="32" className="me-2" />
-          <span className="fs-4">Alameen Web Design</span>
-        </BootstrapNavbar.Brand>
+        {/* Brand / Logo and Toggle in One Flex Container */}
+        <div className="navbar-header">
+          <BootstrapNavbar.Brand
+            as={NavLink}
+            to="/"
+            className="d-flex align-items-center"
+            onClick={handleLinkClick}
+          >
+            <img
+              src={logo}
+              alt="Logo"
+              width="40"
+              height="32"
+              className="me-2"
+            />
+            <span className="fs-4">Alameen Web Design</span>
+          </BootstrapNavbar.Brand>
 
-        {/* Navbar Toggle (for mobile) */}
-        <BootstrapNavbar.Toggle
-          aria-controls="basic-navbar-nav"
-          onClick={() => setExpanded(expanded ? false : true)}
-        />
+          {/* Navbar Toggle (for mobile) */}
+          <BootstrapNavbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setExpanded(expanded ? false : true)}
+          />
+        </div>
 
         {/* Navbar Links */}
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
