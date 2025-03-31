@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
+import {useNavigate} from "react-router-dom";
 import {
   FaGlobe,
   FaShoppingCart,
@@ -6,7 +7,7 @@ import {
   FaRedo,
   FaFunnelDollar,
 } from "react-icons/fa";
-import { Button } from "../components/ui/button.js";
+import {Button} from "../components/ui/button.js";
 import "../styles/services.css";
 
 const services = [
@@ -76,6 +77,8 @@ const Services = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const navigate = useNavigate();
+
   return (
     <section className="services-section">
       <div className="container mx-auto text-center">
@@ -101,7 +104,7 @@ const Services = () => {
             </ul>
             <Button
               className="service-button"
-              onClick={() => (window.location.href = "/contact")}
+              onClick={() => navigate("/contact")}
             >
               {service.cta}
             </Button>

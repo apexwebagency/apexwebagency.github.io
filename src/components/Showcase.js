@@ -1,6 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import {motion} from "framer-motion";
+import {Link} from "react-router-dom";
 import "../styles/showcase.css";
 import website2 from "../assets/images/website2.webp";
 import website3 from "../assets/images/website3.webp";
@@ -39,17 +39,17 @@ export default function Showcase() {
     <div className="sh-showcase-work">
       <motion.h2
         className="sh-showcase-title"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        initial={{opacity: 0, y: -20}}
+        animate={{opacity: 1, y: 0}}
+        transition={{duration: 0.8}}
       >
         Transforming Ideas into Reality
       </motion.h2>
       <motion.p
         className="sh-showcase-subtitle"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        initial={{opacity: 0, y: 20}}
+        animate={{opacity: 1, y: 0}}
+        transition={{duration: 1}}
       >
         See how we've turned bold ideas into stunning, high-converting websites.
       </motion.p>
@@ -63,12 +63,12 @@ export default function Showcase() {
               scale: 1.05,
               boxShadow: "0px 10px 30px rgba(0,0,0,0.2)",
             }}
-            transition={{ duration: 0.3 }}
+            transition={{duration: 0.3}}
           >
             <motion.h3
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2 * index, duration: 0.6 }}
+              initial={{opacity: 0}}
+              animate={{opacity: 1}}
+              transition={{delay: 0.2 * index, duration: 0.6}}
             >
               {project.title}
             </motion.h3>
@@ -85,7 +85,7 @@ export default function Showcase() {
               src={project.image}
               alt={`${project.title} Preview`}
               className="sh-project-image"
-              whileHover={{ scale: 1.02 }}
+              whileHover={{scale: 1.02}}
             />
             <Link to={project.link} className="sh-project-button">
               View Project
@@ -94,14 +94,14 @@ export default function Showcase() {
         ))}
       </div>
 
-      <motion.a
-        href="/contact"
-        className="sh-cta-button"
-        whileHover={{ scale: 1.1, backgroundColor: "#0056b3" }}
-        transition={{ duration: 0.3 }}
+      <motion.span
+        whileHover={{scale: 1.1, backgroundColor: "#0056b3"}}
+        transition={{duration: 0.3}}
       >
-        🔹 Get a Custom Website
-      </motion.a>
+        <Link to="/contact" className="sh-cta-button">
+          🔹 Get a Custom Website
+        </Link>
+      </motion.span>
     </div>
   );
 }

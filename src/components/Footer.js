@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome
 
 function Footer() {
@@ -59,7 +59,7 @@ function Footer() {
             </p>
             <div className="d-flex">
               <a
-                href="https://www.tiktok.com/@alameenwebdesign"
+                href="https://www.tiktok.com/@alameen.web.design"
                 className="text-light me-3"
               >
                 <i className="fab fa-tiktok fa-2x"></i>

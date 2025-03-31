@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { Navbar as BootstrapNavbar, Nav, Container } from "react-bootstrap";
+import React, {useState} from "react";
+import {NavLink} from "react-router-dom";
+import {Navbar as BootstrapNavbar, Nav, Container} from "react-bootstrap";
 import logo from "../assets/images/logo2.png"; // ✅ Correct path
 import "../styles/Navbar.css"; // Import custom CSS
 

@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
-import { Input } from "./ui/input.js";
-import { Button } from "./ui/button.js";
-import { Card, CardContent } from "./ui/card.js";
-import { AnimatePresence, motion } from "framer-motion";
-import { Search, Mic, ThumbsUp, ThumbsDown } from "lucide-react";
+import {useState, useEffect} from "react";
+import {useNavigate} from "react-router-dom";
+import {Input} from "./ui/input.js";
+import {Button} from "./ui/button.js";
+import {Card, CardContent} from "./ui/card.js";
+import {AnimatePresence, motion} from "framer-motion";
+import {Search, Mic, ThumbsUp, ThumbsDown} from "lucide-react";
 import "../styles/faq.css";
 
 const faqs = [
@@ -80,7 +81,7 @@ export default function UltimateFAQ() {
   };
 
   const handleFeedback = (id, type) => {
-    setFeedback((prev) => ({ ...prev, [id]: prev[id] === type ? null : type }));
+    setFeedback((prev) => ({...prev, [id]: prev[id] === type ? null : type}));
   };
 
   const filteredFAQs = search
@@ -88,6 +89,8 @@ export default function UltimateFAQ() {
         faq.question.toLowerCase().includes(search.toLowerCase())
       )
     : faqs.slice(0, 4);
+
+  const navigate = useNavigate();
 
   return (
     <div className="faq-container">
@@ -116,10 +119,10 @@ export default function UltimateFAQ() {
         {filteredFAQs.map((faq) => (
           <motion.div
             key={faq.id}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.3 }}
+            initial={{opacity: 0, y: 10}}
+            animate={{opacity: 1, y: 0}}
+            exit={{opacity: 0, y: -10}}
+            transition={{duration: 0.3}}
           >
             <Card className="faq-card">
               <CardContent
@@ -132,10 +135,10 @@ export default function UltimateFAQ() {
               </CardContent>
               {selectedFAQ === faq.id && (
                 <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: "auto", opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.3 }}
+                  initial={{height: 0, opacity: 0}}
+                  animate={{height: "auto", opacity: 1}}
+                  exit={{height: 0, opacity: 0}}
+                  transition={{duration: 0.3}}
                   className="faq-answer"
                 >
                   <p>{faq.answer}</p>
@@ -159,10 +162,7 @@ export default function UltimateFAQ() {
           </motion.div>
         ))}
       </AnimatePresence>
-      <Button
-        className="faq-cta-button"
-        onClick={() => (window.location.href = "/contact")}
-      >
+      <Button className="faq-cta-button" onClick={() => navigate("/contact")}>
         Need More Help? Contact Us!
       </Button>
     </div>

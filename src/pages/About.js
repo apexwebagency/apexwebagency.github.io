@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import {useEffect} from "react";
+import {Link} from "react-router-dom";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Team1 from "../assets/images/Team1.webp";
@@ -181,7 +182,7 @@ const About = () => {
           {/* Why Most Websites Fail */}
           <div
             className="col-md-6 p-4 rounded border border-danger shadow-sm unique-profit-fail-col"
-            style={{ backgroundColor: "#FFECEC" }}
+            style={{backgroundColor: "#FFECEC"}}
           >
             <h3 className="text-danger fw-bold unique-profit-fail-heading d-flex align-items-center">
               ❌ Why Most Websites Fail
@@ -204,7 +205,7 @@ const About = () => {
           {/* How We Make You Win */}
           <div
             className="col-md-6 p-4 rounded border border-success shadow-sm unique-profit-win-col"
-            style={{ backgroundColor: "#ECFFE1" }}
+            style={{backgroundColor: "#ECFFE1"}}
           >
             <h3 className="text-success fw-bold unique-profit-win-heading d-flex align-items-center">
               ✅ How We Make You Win 🏆
@@ -295,12 +296,12 @@ const About = () => {
             className="img-fluid rounded shadow cta-banner-img"
           />
           <div className="mt-3 cta-banner-btn-wrapper">
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="btn btn-primary btn-lg cta-btn-get-started"
             >
               Get Started Now
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -324,12 +325,12 @@ const About = () => {
         </h3>
 
         <div className="cta-final-btn-wrapper">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="btn btn-outline-primary btn-lg cta-btn-premium"
           >
             Get Your Premium Website Now →
-          </a>
+          </Link>
         </div>
       </section>
     </>

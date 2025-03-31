@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import sendEmail from "../utils/emailService.js";
 import trust from "../assets/images/trust.jpg";
 import work from "../assets/images/work.jpg";
@@ -7,12 +7,12 @@ import chat from "../assets/images/chats.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/contact.css";
-import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
+import {FaInstagram, FaYoutube, FaTiktok} from "react-icons/fa";
 
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({duration: 1000, once: true});
   }, []);
 
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ function Contact() {
     setStatus(response.message);
 
     if (response.success) {
-      setFormData({ name: "", email: "", message: "" });
+      setFormData({name: "", email: "", message: ""});
     }
   };
 
@@ -84,7 +84,7 @@ function Contact() {
               onClick={() =>
                 document
                   .getElementById("contact-form")
-                  .scrollIntoView({ behavior: "smooth" })
+                  .scrollIntoView({behavior: "smooth"})
               }
               className="customUnique-contact-direct-title w-full bg-gray-800 text-white font-semibold py-3 rounded-lg shadow-lg transition hover:bg-gray-700"
             >
@@ -304,7 +304,7 @@ function Contact() {
           </a>
           {/* TikTok */}
           <a
-            href="https://www.tiktok.com/@alameenwebdesign"
+            href="https://www.tiktok.com/@alameen.web.design"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon social-tiktok inline-block mx-4 text-black hover:text-gray-700 transition transform hover:scale-110"

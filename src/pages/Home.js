@@ -1,8 +1,9 @@
 // Import necessary hooks & dependencies
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
+import {useNavigate} from "react-router-dom";
 import axios from "axios";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import {Link} from "react-router-dom";
+import {motion} from "framer-motion";
 import testimonials from "../data/testimonials.js";
 import SocialProof from "../components/SocialProof.js";
 import ValueShowcase2 from "../components/ValueShowcase2.js";
@@ -60,11 +61,11 @@ function Home() {
   }, []);
 
   // Form State & Submission
-  const [formData, setFormData] = useState({ name: "", email: "" });
+  const [formData, setFormData] = useState({name: "", email: ""});
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({...formData, [e.target.name]: e.target.value});
   };
 
   const handleSubmit = async (e) => {
@@ -75,11 +76,13 @@ function Home() {
         formData
       );
       setMessage(response.data.message);
-      setFormData({ name: "", email: "" });
+      setFormData({name: "", email: ""});
     } catch (error) {
       setMessage("Error submitting form. Please try again.");
     }
   };
+
+  const navigate = useNavigate();
 
   // Services Data
   const services = [
@@ -205,9 +208,9 @@ function Home() {
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          <a href="/about" className="why-choose-us-button">
+          <Link to="/about" className="why-choose-us-button">
             🚀 Why Choose Us
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -300,9 +303,9 @@ function Home() {
               alt="E-Commerce Preview"
               className="project-image"
             />
-            <a href="/portfolio/project1" className="project-button">
+            <Link to="/portfolio/project1" className="project-button">
               View Project
-            </a>
+            </Link>
           </div>
 
           <div className="project-card">
@@ -324,9 +327,9 @@ function Home() {
               alt="Luxury Brand Preview"
               className="project-image"
             />
-            <a href="/portfolio/project2" className="project-button">
+            <Link to="/portfolio/project2" className="project-button">
               View Project
-            </a>
+            </Link>
           </div>
 
           <div className="project-card">
@@ -347,23 +350,23 @@ function Home() {
               alt="SaaS Website Preview"
               className="project-image"
             />
-            <a href="/portfolio/project3" className="project-button">
+            <Link to="/portfolio/project3" className="project-button">
               View Project
-            </a>
+            </Link>
           </div>
         </div>
 
-        <a href="/contact" className="cta-button">
+        <Link to="/contact" className="cta-button">
           🔹 Get a Custom Website
-        </a>
+        </Link>
       </div>
 
       {/* ========== SERVICES SECTION ========== */}
       <section className="trust-services-section px-4 md:px-8 lg:px-16 xl:px-24 mt-16">
         <motion.h2
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.6}}
           className="trust-services-title text-3xl font-bold text-center mb-8"
         >
           Our Services
@@ -373,10 +376,10 @@ function Home() {
             <motion.div
               key={index}
               className="trust-service-card shadow-lg rounded-lg p-6 text-center"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              whileHover={{ scale: 1.05 }}
+              initial={{opacity: 0, scale: 0.8}}
+              animate={{opacity: 1, scale: 1}}
+              transition={{duration: 0.5, delay: index * 0.2}}
+              whileHover={{scale: 1.05}}
             >
               <span className="trust-service-icon text-4xl">
                 {service.icon}
@@ -389,8 +392,8 @@ function Home() {
         </div>
         <motion.button
           className="trust-services-cta-button py-3 px-6 text-lg mt-8 block mx-auto rounded-lg shadow-md"
-          whileHover={{ scale: 1.1 }}
-          onClick={() => (window.location.href = "/services ")}
+          whileHover={{scale: 1.1}}
+          onClick={() => navigate("/services")}
         >
           Learn More →
         </motion.button>
