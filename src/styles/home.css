@@ -184,6 +184,34 @@
   background: rgba(255, 255, 255, 0.5);
 }
 
+/* ========== MOBILE RESPONSIVENESS ========== */
+@media (max-width: 768px) {
+  .testimonial-slider {
+    padding: 40px 15px; /* Reduce padding for smaller screens */
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem; /* Reduce text size for better fit */
+  }
+
+  .client-name {
+    font-size: 1rem; /* Slightly smaller name size */
+  }
+
+  .slider-btn {
+    font-size: 1.5rem; /* Reduce button size */
+    padding: 8px; /* Reduce padding */
+  }
+
+  .slider-btn-left {
+    left: 5px; /* Bring buttons closer to the edge */
+  }
+
+  .slider-btn-right {
+    right: 5px;
+  }
+}
+
 /* ========== IRRESISTIBLE OFFER SECTION ========== */
 .offer-section {
   text-align: center;
@@ -237,6 +265,40 @@
 
 .offer-button:hover {
   background-color: #1a1a2e;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+  .offer-section {
+    padding: 40px 15px;
+    margin: 30px auto;
+    max-width: 95%;
+    box-shadow: none;
+  }
+
+  .offer-title {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .offer-text {
+    font-size: 1rem;
+  }
+
+  .offer-form {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .offer-form input {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .offer-button {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }
 
 /* ========== SHOWCASE SECTION ========== */
