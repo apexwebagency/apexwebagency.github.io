@@ -12,7 +12,6 @@ import Project2 from "./pages/portfolio/Project2.js";
 import Project3 from "./pages/portfolio/Project3.js";
 import PrivacyPolicy from "./pages/legal/Privacy-Policy.js";
 import Terms_and_conditons from "./pages/legal/Terms & Conditions.js";
-import "./styles/global.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
