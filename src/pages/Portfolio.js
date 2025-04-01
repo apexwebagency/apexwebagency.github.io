@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import projects from "../data/projects.js";
 import InstantHook from "../components/InstantHook.js";
 

@@ -1,7 +1,7 @@
-import { Button } from "../../components/ui/button.js";
-import { Card, CardContent } from "../../components/ui/card.js";
-import { motion } from "framer-motion";
-import React, { useState, useEffect } from "react";
+import {Button} from "../../components/ui/button.js";
+import {Card, CardContent} from "../../components/ui/card.js";
+import {motion} from "framer-motion";
+import React, {useState, useEffect} from "react";
 import axios from "axios"; // Import axios
 import websiteImage from "../../assets/images/website1.webp";
 import result from "../../assets/images/result.png";
@@ -12,11 +12,11 @@ export default function Project1() {
     window.scrollTo(0, 0);
   }, []);
 
-  const [formData, setFormData] = useState({ name: "", email: "" });
+  const [formData, setFormData] = useState({name: "", email: ""});
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({...formData, [e.target.name]: e.target.value});
   };
 
   const handleSubmit = async (e) => {
@@ -26,11 +26,11 @@ export default function Project1() {
         "http://localhost:5000/submit",
         formData,
         {
-          headers: { "Content-Type": "application/json" },
+          headers: {"Content-Type": "application/json"},
         }
       );
       setMessage(response.data.message);
-      setFormData({ name: "", email: "" });
+      setFormData({name: "", email: ""});
     } catch (error) {
       setMessage("Error submitting form. Please try again.");
     }
@@ -43,9 +43,9 @@ export default function Project1() {
         id="project1-hero-section"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-3xl"
           id="project1-header-container"
         >
@@ -64,9 +64,9 @@ export default function Project1() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
+          initial={{opacity: 0, scale: 0.9}}
+          animate={{opacity: 1, scale: 1}}
+          transition={{duration: 0.8, delay: 0.3}}
           className="mt-8 w-full max-w-4xl shadow-2xl rounded-2xl overflow-hidden"
           id="project1-image-container"
         >
@@ -112,9 +112,9 @@ export default function Project1() {
         </Card>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          initial={{opacity: 0, y: 20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8, delay: 0.5}}
           className="mt-8"
           id="project1-cta-container"
         >
@@ -138,9 +138,9 @@ export default function Project1() {
         id="project1-overview-section"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-3xl"
           id="project1-overview-header"
         >
@@ -228,9 +228,9 @@ export default function Project1() {
         id="project1-challenge-section"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-3xl"
           id="project1-challenge-header"
         >
@@ -302,9 +302,9 @@ export default function Project1() {
         id="project1-strategy-section"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-4xl"
           id="project1-strategy-header"
         >
@@ -431,9 +431,9 @@ export default function Project1() {
         id="project1-results-section"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-4xl"
           id="project1-results-header"
         >
@@ -518,9 +518,9 @@ export default function Project1() {
         id="project1-testimonial-section"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-4xl"
           id="project1-testimonial-header"
         >
@@ -609,9 +609,9 @@ export default function Project1() {
         id="project1-next-steps"
       >
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{opacity: 0, y: -20}}
+          animate={{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
           className="max-w-4xl project1-summary"
           id="project1-summary"
         >
