@@ -140,36 +140,59 @@
   transform: translateY(-3px);
 }
 
-/* 📱 Mobile Optimization – ultra-readable */
+/* 📱 Super Responsive Mobile Optimization */
 @media (max-width: 768px) {
+  .services-section {
+    padding: 4rem 1rem;
+  }
+
   .services-title {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
+    line-height: 1.3;
+    padding: 0 1rem;
   }
 
   .services-description {
-    font-size: 1.2rem;
-    padding: 0 1rem;
+    font-size: 1.1rem;
+    padding: 0 1.5rem;
+    line-height: 1.6;
   }
 
   .services-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
 
   .service-card {
-    padding: 1.8rem;
+    padding: 1.6rem;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   }
 
   .service-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
   }
 
   .service-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .service-features li {
+    font-size: 1rem;
+    gap: 8px;
+    margin-bottom: 0.6rem;
   }
 
   .service-button {
     font-size: 1rem;
-    padding: 0.9rem 1.7rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
   }
 }

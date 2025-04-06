@@ -7,8 +7,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    {" "}
-    {/* ✅ Wrap App with Router */}
-    <App />
+    {/* Wrap App with Router and include basename */}
+    <Router basename="/alameenwebdesign.github.io">
+      {" "}
+      {/* Replace "my-website" with your actual repo name */}
+      <App />
+    </Router>
   </React.StrictMode>
 );

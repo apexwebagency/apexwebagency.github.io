@@ -612,6 +612,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 40px; /* Added for consistent spacing */
 }
 
 .contact-impact-content {
@@ -657,6 +658,8 @@
 
 .contact-impact-image {
   max-width: 100%;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -665,13 +668,34 @@
 @media (max-width: 768px) {
   .contact-impact-container {
     flex-direction: column;
+    gap: 20px; /* Smaller gap on mobile */
   }
+
   .contact-impact-content,
   .contact-impact-image-placeholder {
-    margin: 0;
+    margin: 0; /* Remove extra margins */
   }
+
   .contact-impact-image-placeholder {
-    margin-top: 30px;
+    margin-top: 20px; /* Small space between text and image */
+    margin-bottom: 0; /* No extra bottom margin */
+    flex: 1 1 100%; /* Ensure the container uses full width */
+    overflow: hidden; /* Hide any potential overflow */
+  }
+
+  .contact-impact-section {
+    padding: 40px 15px; /* Tighter padding on mobile */
+  }
+}
+
+/* Optional: control section spacing globally */
+section {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-bottom: 30px; /* Reduce bottom space between sections on mobile */
   }
 }
 
@@ -780,4 +804,39 @@
 .social-tiktok:hover {
   background: linear-gradient(135deg, #f9f9f9, #e6e6e6);
   border-color: #222;
+}
+
+/* MOBILE ONLY RESPONSIVENESS */
+@media (max-width: 640px) {
+  .social-section {
+    padding: 30px 20px;
+    margin: 40px 20px;
+    border-radius: 16px;
+  }
+
+  .social-title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .social-subtext {
+    font-size: 16px;
+    max-width: 100%;
+    line-height: 1.5;
+    padding: 0 5px;
+  }
+
+  .social-icons-container {
+    flex-direction: row; /* <-- KEEP ICONS HORIZONTAL */
+    flex-wrap: wrap; /* <-- Allow wrapping if needed */
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .social-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 32px;
+  }
 }
