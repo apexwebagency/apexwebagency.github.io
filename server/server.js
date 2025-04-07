@@ -6,45 +6,53 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
+const PORT = process.env.PORT || 10000;
+
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow frontend requests
-    methods: "POST",
+    origin: "*",
+    methods: ["GET", "POST"],
     credentials: true,
   })
 );
 
+// PostgreSQL setup
 const db = new pg.Client({
-  host: process.env.PG_HOST,
-  user: process.env.PG_USER,
-  password: process.env.PG_PASSWORD,
-  database: process.env.PG_NAME,
-  port: process.env.PG_PORT || 5432,
+  host: process.env.PGHOST,
+  user: process.env.PGUSER,
+  password: process.env.PGPASSWORD,
+  database: process.env.PGDATABASE,
+  port: process.env.PGPORT,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
 
 db.connect()
-  .then(() => console.log("Connected to PostgreSQL database!"))
-  .catch((err) => console.error("Database connection failed:", err));
+  .then(() => console.log("✅ Connected to PostgreSQL database!"))
+  .catch((err) => console.error("❌ Database connection failed:", err));
 
+// Example API
 app.post("/submit", async (req, res) => {
-  const { name, email } = req.body;
+  const {name, email} = req.body;
   if (!name || !email) {
-    return res.status(400).json({ message: "All fields are required" });
+    return res.status(400).json({message: "All fields are required"});
   }
 
   try {
-    const sql = "INSERT INTO users (name, email) VALUES ($1, $2)";
-    await db.query(sql, [name, email]);
-    res.status(200).json({ message: "Successfully submitted!" });
-  } catch (err) {
-    console.error("Error inserting data:", err);
-    res.status(500).json({ message: "Server error" });
+    await db.query("INSERT INTO leads (name, email) VALUES ($1, $2)", [
+      name,
+      email,
+    ]);
+    res.status(200).json({message: "Successfully submitted!"});
+  } catch (error) {
+    console.error("Error inserting data:", error);
+    res.status(500).json({message: "Server error"});
   }
 });
 
-const PORT = process.env.PORT || 5000;
+// Start server
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
-//

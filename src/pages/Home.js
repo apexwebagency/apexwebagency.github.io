@@ -72,12 +72,13 @@ function Home() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/submit",
+        "http://localhost:10000/submit", // ✅ FIXED
         formData
       );
       setMessage(response.data.message);
-      setFormData({name: "", email: ""});
+      setFormData({name: "", email: ""}); // Reset form
     } catch (error) {
+      console.error(error); // ✅ Useful for debugging
       setMessage("Error submitting form. Please try again.");
     }
   };
