@@ -414,7 +414,7 @@ function Home() {
           **skyrocket your revenue**.
         </p>
         <div className="cta-buttons">
-          <Link
+          <a
             className="cta-button primary"
             href="tel:+2347083652671"
             onClick={(e) => {
@@ -425,7 +425,7 @@ function Home() {
             }}
           >
             🔥 Claim Your Free Strategy Call
-          </Link>
+          </a>
 
           <Link to="/contact" className="cta-button secondary">
             🚀 Launch Your Project Now

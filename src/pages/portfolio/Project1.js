@@ -6,12 +6,14 @@ import axios from "axios"; // Import axios
 import websiteImage from "../../assets/images/website1.webp";
 import result from "../../assets/images/result.png";
 import "../../styles/project1.css";
+import {useNavigate} from "react-router-dom";
 
 export default function Project1() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
+  const navigate = useNavigate();
+  // Form State & Submission
   const [formData, setFormData] = useState({name: "", email: ""});
   const [message, setMessage] = useState("");
 
@@ -23,15 +25,13 @@ export default function Project1() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/submit",
-        formData,
-        {
-          headers: {"Content-Type": "application/json"},
-        }
+        "https://leadform-backend-production.up.railway.app/submit", // ✅ UPDATED to public URL
+        formData
       );
       setMessage(response.data.message);
-      setFormData({name: "", email: ""});
+      setFormData({name: "", email: ""}); // Reset form
     } catch (error) {
+      console.error(error); // ✅ Still good for debugging
       setMessage("Error submitting form. Please try again.");
     }
   };
@@ -118,12 +118,13 @@ export default function Project1() {
           className="mt-8"
           id="project1-cta-container"
         >
-          <Button
+          <button
+            onClick={() => navigate("/contact")}
             className="px-8 py-4 text-lg font-bold !text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
             id="project1-cta-button"
           >
             Ready to 3x Your Sales? Let’s Talk!
-          </Button>
+          </button>
         </motion.div>
 
         <p
@@ -560,12 +561,13 @@ export default function Project1() {
           </CardContent>
         </Card>
 
-        <Button
-          className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg"
+        <button
+          onClick={() => navigate("/contact")}
+          className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-bold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
           id="project1-testimonial-button"
         >
           Get Your Premium Website Now →
-        </Button>
+        </button>
       </section>
 
       {/* Irresistible Offer Section */}
@@ -645,12 +647,13 @@ export default function Project1() {
           </CardContent>
         </Card>
 
-        <Button
+        <button
+          onClick={() => navigate("/contact")}
           className="mt-10 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 project1-cta-button"
           id="project1-cta-button"
         >
           Ready to 3x Your Sales? Contact Us Now!
-        </Button>
+        </button>
       </section>
     </>
   );
