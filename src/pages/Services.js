@@ -14,62 +14,41 @@ const services = [
   {
     icon: <FaGlobe className="service-icon" />,
     title: "Custom Website Design",
-    description:
-      "We design stunning, high-performance websites that grab attention and turn visitors into loyal customers.",
-    features: [
-      "Visually stunning designs",
-      "Built for maximum conversions",
-      "Future-ready technology",
-    ],
-    cta: "Get My Custom Website",
+    description: "Stunning websites that turn visitors into loyal customers.",
+    features: ["Eye-catching designs", "Built to convert", "Future-ready"],
+    cta: "Get My Website",
   },
   {
     icon: <FaShoppingCart className="service-icon" />,
     title: "E-Commerce Development",
-    description:
-      "We build online stores that make shopping easy, engaging, and profitable for you.",
+    description: "Online stores that make shopping easy and profitable.",
     features: [
-      "Fast-loading, user-friendly design",
+      "Fast and user-friendly",
       "Optimized product pages",
-      "Effortless checkout process",
+      "Simple checkout",
     ],
-    cta: "Start Selling Online",
+    cta: "Start Selling",
   },
   {
     icon: <FaTachometerAlt className="service-icon" />,
     title: "SEO & Speed Optimization",
-    description:
-      "A slow website is a lost opportunity. We boost your speed and ranking to drive more traffic and sales.",
-    features: [
-      "Lightning-fast loading times",
-      "Higher rankings on Google",
-      "More visitors, more sales",
-    ],
-    cta: "Boost My Website",
+    description: "Speed up your site and rank higher on Google.",
+    features: ["Super fast", "Rank higher", "More sales"],
+    cta: "Boost My Site",
   },
   {
     icon: <FaRedo className="service-icon" />,
     title: "Website Redesign & Optimization",
-    description:
-      "Turn your outdated website into a modern, high-converting powerhouse that impresses visitors and drives sales.",
-    features: [
-      "Sleek, modern design",
-      "Seamless user experience",
-      "Maximized sales potential",
-    ],
-    cta: "Upgrade My Website",
+    description: "Modern, high-converting websites that boost sales.",
+    features: ["Sleek design", "Smooth experience", "More sales"],
+    cta: "Upgrade My Site",
   },
   {
     icon: <FaFunnelDollar className="service-icon" />,
     title: "Landing Pages & Sales Funnels",
-    description:
-      "We create landing pages that capture leads and sales funnels that turn visitors into paying customers.",
-    features: [
-      "Persuasive, high-impact content",
-      "A/B tested for best results",
-      "Optimized for lead generation",
-    ],
-    cta: "Build My High-Converting Funnel",
+    description: "Landing pages that capture leads and turn them into sales.",
+    features: ["High-converting", "Tested for results", "Lead optimized"],
+    cta: "Build My Funnel",
   },
 ];
 
@@ -83,11 +62,10 @@ const Services = () => {
     <section className="services-section">
       <div className="container mx-auto text-center">
         <h2 className="services-title">
-          Alameen Web Design – Websites That Look Amazing & Sell Like Crazy
+          Alameen Web Design – Websites That Sell
         </h2>
         <p className="services-description">
-          We don’t just build websites—we create digital experiences that
-          captivate audiences and drive unstoppable growth.
+          We build websites that grab attention and boost sales.
         </p>
       </div>
 

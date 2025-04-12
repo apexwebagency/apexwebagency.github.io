@@ -9,9 +9,10 @@ import website1 from "../assets/images/website1.webp";
 export default function Showcase() {
   const projects = [
     {
-      title: "High-Performance E-Commerce Website 🛍️",
+      title: "Fast and Powerful Online Store 🛍️",
       client: "TechGear Hub",
-      features: "Fast-loading, seamless UI, optimized checkout.",
+      features:
+        "Made the store super fast, super simple, and checkout crazy easy.",
       result: "Boosted sales by +320% in 3 months!",
       image: website1,
       link: "/portfolio/project1",
@@ -20,16 +21,17 @@ export default function Showcase() {
       title: "Luxury Brand Website 🎨",
       client: "Elite Fashion House",
       features:
-        "Stunning visuals, silky-smooth animations, high-end aesthetics.",
-      result: "Elevated brand perception, +250% engagement increase.",
+        "Built a rich, clean, and smooth website that shows true luxury.",
+      result: "Brand looked more premium. Engagement jumped by 250%.",
       image: website2,
       link: "/portfolio/project2",
     },
     {
       title: "High-Converting SaaS Website 🚀",
       client: "InnovateX Software",
-      features: "Engaging UI, smartly placed CTAs, conversion-driven design.",
-      result: "Skyrocketed conversions with +400% sign-ups.",
+      features:
+        "We created a sleek, easy-to-use site with smart buttons that keep visitors engaged.",
+      result: "400% more sign-ups after launch!",
       image: website3,
       link: "/portfolio/project3",
     },
@@ -51,7 +53,7 @@ export default function Showcase() {
         animate={{opacity: 1, y: 0}}
         transition={{duration: 1}}
       >
-        See how we've turned bold ideas into stunning, high-converting websites.
+        See how we help businesses get more customers with great websites.
       </motion.p>
 
       <div className="sh-projects-container">
@@ -76,7 +78,7 @@ export default function Showcase() {
               <strong>Client:</strong> {project.client}
             </p>
             <p>
-              <strong>Features:</strong> {project.features}
+              <strong>What We Did:</strong> {project.features}
             </p>
             <p>
               <strong>Result:</strong> {project.result}

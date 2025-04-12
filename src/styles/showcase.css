@@ -182,24 +182,95 @@
   }
 }
 
+/* Mobile Responsiveness Adjustments */
 @media (max-width: 768px) {
   .sh-showcase-title {
     font-size: 2.2rem;
+    margin-bottom: 10px;
   }
+
   .sh-showcase-subtitle {
     font-size: 1rem;
+    margin-bottom: 40px;
   }
+
   .sh-cta-button {
     font-size: 1.2rem;
     padding: 12px 24px;
+    margin-top: 30px;
+  }
+
+  .sh-projects-container {
+    gap: 15px;
+    padding: 0 5%;
+  }
+
+  .sh-project-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sh-project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .sh-project-card p {
+    font-size: 0.9rem;
+  }
+
+  .sh-project-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .sh-project-image {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
   }
 }
 
 @media (max-width: 480px) {
+  .sh-showcase-title {
+    font-size: 1.8rem;
+  }
+
+  .sh-showcase-subtitle {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .sh-cta-button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+
   .sh-projects-container {
     grid-template-columns: 1fr;
+    gap: 15px;
   }
+
   .sh-project-card {
-    padding: 15px;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .sh-project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .sh-project-card p {
+    font-size: 0.9rem;
+  }
+
+  .sh-project-button {
+    font-size: 0.9rem;
+    padding: 7px 14px;
+  }
+
+  .sh-project-image {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
   }
 }

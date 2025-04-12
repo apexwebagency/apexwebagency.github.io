@@ -89,29 +89,27 @@ function Home() {
   const services = [
     {
       title: "Custom Website Design",
-      description:
-        "We create stunning, high-performance websites that convert.",
+      description: "We build websites that look amazing and sell for you.",
       icon: "🌐",
     },
     {
       title: "E-Commerce Development",
-      description: "Powerful online stores built for more sales.",
+      description: "We build online stores that make you more money.",
       icon: "🛒",
     },
     {
-      title: "SEO & Speed Optimization",
-      description:
-        "We make your site faster, rank higher, and attract more traffic.",
+      title: "SEO & Speed Boost",
+      description: "Faster site. Higher rank. More visitors. More sales.",
       icon: "⚡",
     },
     {
       title: "Website Redesign & Optimization",
-      description: "We turn your site into a sales machine.",
+      description: "We upgrade your site to get you more sales.",
       icon: "🎯",
     },
     {
       title: "Landing Pages & Funnels",
-      description: "We help you convert more visitors into customers.",
+      description: "Our pages turn visitors into buyers — guaranteed.",
       icon: "🚀",
     },
   ];
@@ -121,18 +119,18 @@ function Home() {
       {/* Hero Section */}
       <div className="hero-section">
         <h1 className="hero-title">
-          Elevate Your Business with{" "}
+          Boost Your Business with{" "}
           <span className={`dynamic-word ${fade ? "fade-in" : "fade-out"}`}>
             {words[currentWordIndex]}
           </span>{" "}
-          Web Solutions
+          Websites
         </h1>
         <p className="hero-text">
-          We create <strong>luxury websites</strong> that drive{" "}
-          <strong>massive revenue & conversions</strong>.
+          We build <strong>luxury websites</strong> that get you{" "}
+          <strong>real results</strong>.
         </p>
         <Link to="/portfolio" className="hero-button">
-          View My Work
+          See Our Work
         </Link>
       </div>
 
@@ -243,11 +241,12 @@ function Home() {
       {/* Irresistible Offer Section */}
       <div className="offer-section">
         <h2 className="offer-title">
-          🚀 Get a Free Website Audit (Worth $200) – Limited Spots Available!
+          🚀 Claim Your FREE Website Checkup (Worth $200) – Only a Few Spots
+          Left!
         </h2>
         <p className="offer-text">
-          Find out what's stopping your website from converting visitors into
-          customers in just 24 hours!
+          Discover what's holding your website back from turning visitors into
+          paying customers in just 24 hours!
         </p>
 
         {/* Offer Form */}
@@ -280,21 +279,21 @@ function Home() {
       {/* SHOWCASE SECTION */}
 
       <div className="showcase-work">
-        <h2 className="showcase-title">Transforming Ideas into Reality</h2>
+        <h2 className="showcase-title">We Bring Your Vision to Life</h2>
         <p className="showcase-subtitle">
-          See how we've turned bold ideas into stunning, high-converting
-          websites.
+          Take a look at how we’ve helped businesses like yours create websites
+          that attract more customers and drive real results.
         </p>
 
         <div className="projects-container">
           <div className="project-card">
-            <h3>High-Performance E-Commerce Website 🛍️</h3>
+            <h3>Fast and Powerful Online Store 🛍️</h3>
             <p>
               <strong>Client:</strong> TechGear Hub
             </p>
             <p>
-              <strong>Features:</strong> Fast-loading, easy to use, and a
-              checkout system so smooth that customers never drop off.
+              <strong>What We Did:</strong> Made the store super fast, super
+              simple, and checkout crazy easy.
             </p>
             <p>
               <strong>Result:</strong> Boosted sales by +320% in 3 months!
@@ -310,18 +309,17 @@ function Home() {
           </div>
 
           <div className="project-card">
-            <h3>Luxury Brand Website 🎨</h3>
+            <h3>Website for a Luxury Brand 🎨</h3>
             <p>
               <strong>Client:</strong> Elite Fashion House
             </p>
             <p>
-              <strong>Features:</strong> Stunning visuals, silky-smooth
-              animations, and a sleek, high-end design that immediately grabs
-              attention.
+              <strong>What We Did:</strong> Built a rich, clean, and smooth
+              website that shows true luxury.
             </p>
             <p>
-              <strong>Result:</strong> Elevated brand perception and increased
-              engagement by +250%.
+              <strong>Result:</strong> Brand looked more premium. Engagement
+              jumped by 250%.
             </p>
             <img
               src={website2}
@@ -334,17 +332,16 @@ function Home() {
           </div>
 
           <div className="project-card">
-            <h3>High-Converting SaaS Website 🚀</h3>
+            <h3>Fast and Powerful SaaS Website 🚀</h3>
             <p>
               <strong>Client:</strong> InnovateX Software
             </p>
             <p>
-              <strong>Features:</strong> Engaging UI, smartly placed buttons,
-              and a website designed to turn visitors into loyal customers.
+              <strong>What We Did:</strong> We created a sleek, easy-to-use site
+              with smart buttons that keep visitors engaged.
             </p>
             <p>
-              <strong>Result:</strong> Skyrocketed conversions with a +400%
-              increase in sign-ups.
+              <strong>Result:</strong> 400% more sign-ups after launch!
             </p>
             <img
               src={website3}
@@ -409,9 +406,8 @@ function Home() {
           Your Dream Website is Just One Click Away!
         </h2>
         <p className="cta-subtext">
-          Stop losing customers to outdated designs! Get a sleek,
-          high-performance website built to dominate your industry and
-          **skyrocket your revenue**.
+          Stop losing customers to a slow, outdated website! Get a fast,
+          stunning website that drives sales and grows your business.
         </p>
         <div className="cta-buttons">
           <a

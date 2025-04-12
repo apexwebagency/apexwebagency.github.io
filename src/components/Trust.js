@@ -10,28 +10,27 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const services = [
   {
     title: "Custom Website Design",
-    description: "We create stunning, high-performance websites that convert.",
+    description: "We build websites that look amazing and sell for you.",
     icon: "🌐",
   },
   {
     title: "E-Commerce Development",
-    description: "Powerful online stores built for more sales.",
+    description: "We build online stores that make you more money.",
     icon: "🛒",
   },
   {
-    title: "SEO & Speed Optimization",
-    description:
-      "We make your site faster, rank higher, and attract more traffic.",
+    title: "SEO & Speed Boost",
+    description: "Faster site. Higher rank. More visitors. More sales.",
     icon: "⚡",
   },
   {
     title: "Website Redesign & Optimization",
-    description: "We turn your site into a sales machine.",
+    description: "We upgrade your site to get you more sales.",
     icon: "🎯",
   },
   {
     title: "Landing Pages & Funnels",
-    description: "We help you convert more visitors into customers.",
+    description: "Our pages turn visitors into buyers — guaranteed.",
     icon: "🚀",
   },
 ];
@@ -49,7 +48,7 @@ export default function Trust() {
               transition={{duration: 0.6}}
               className="trust-heading text-3xl font-bold text-center mb-4"
             >
-              Why You Can Trust Alameen Web Design
+              Why Choose Alameen Web Design?
             </motion.h2>
             <motion.p
               initial={{opacity: 0, y: 20}}
@@ -57,8 +56,7 @@ export default function Trust() {
               transition={{delay: 0.2, duration: 0.6}}
               className="trust-subheading text-lg text-center mb-8"
             >
-              At Alameen Web Design, we don’t just build websites—we build
-              money-making machines for businesses like yours.
+              We create websites that turn visitors into customers.
             </motion.p>
             <motion.p
               initial={{opacity: 0, y: 20}}
@@ -66,9 +64,7 @@ export default function Trust() {
               transition={{delay: 0.4, duration: 0.6}}
               className="trust-description text-base text-center mb-8"
             >
-              We know what works. With deep marketing expertise, we create
-              websites that attract, engage, and convert. No fluff. No
-              guesswork. Just results.
+              Fast, effective, and built to grow your business.
             </motion.p>
             <motion.div
               initial={{opacity: 0}}
@@ -82,9 +78,7 @@ export default function Trust() {
                     ✅
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>Your Website Will Sell for You</strong> – Every
-                    design choice is made to turn visitors into customers. No
-                    more losing sales.
+                    Your Website Sells for You
                   </span>
                 </li>
                 <li className="trust-list-item flex items-start">
@@ -92,10 +86,7 @@ export default function Trust() {
                     ✅
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>Marketing & Web Design in One</strong> – Unlike
-                    basic designers, we understand how to make people buy. Your
-                    website won’t just look good—it’ll work like a 24/7
-                    salesman.
+                    Marketing & Web Design Combined
                   </span>
                 </li>
                 <li className="trust-list-item flex items-start">
@@ -103,29 +94,7 @@ export default function Trust() {
                     ✅
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>Fast, Smooth, & Google-Friendly</strong> – Your site
-                    will load instantly, work perfectly on all devices, and rank
-                    higher on Google for more traffic.
-                  </span>
-                </li>
-                <li className="trust-list-item flex items-start">
-                  <span className="trust-list-icon mr-3 text-green-500 text-2xl">
-                    ✅
-                  </span>
-                  <span className="trust-list-text text-lg">
-                    <strong>Custom-Made for Maximum Profits</strong> – No
-                    generic templates. We build sites that fit your brand, your
-                    audience, and your business goals.
-                  </span>
-                </li>
-                <li className="trust-list-item flex items-start">
-                  <span className="trust-list-icon mr-3 text-green-500 text-2xl">
-                    ✅
-                  </span>
-                  <span className="trust-list-text text-lg">
-                    <strong>No Confusion. No Delays. Just Results.</strong> – We
-                    make the process fast, easy, and stress-free so you can
-                    focus on running your business.
+                    Fast, Smooth, Google-Friendly
                   </span>
                 </li>
               </ul>
@@ -137,16 +106,16 @@ export default function Trust() {
               className="trust-cta text-center mt-8"
             >
               <p className="trust-cta-heading text-xl font-semibold mb-4">
-                Your Business Deserves a Website That Brings in Sales.
+                Get a Website That Brings in Sales.
               </p>
               <p className="trust-cta-heading text-xl font-semibold mb-8">
-                Let’s build it today.
+                Let’s build it now.
               </p>
               <Button
                 className="trust-cta-button cta-button py-3 px-6 text-lg md:text-xl"
                 onClick={() => navigate("/contact")}
               >
-                📩 Get Your Winning Website Now!
+                📩 Get Your Website Now!
               </Button>
             </motion.div>
           </CardContent>
@@ -162,8 +131,7 @@ export default function Trust() {
               transition={{duration: 0.6}}
               className="trust-alpha-heading text-3xl font-bold text-center mb-4"
             >
-              Your Business Needs More Than Just a Website—It Needs a
-              Money-Making Machine
+              Your Website Should Make You Money
             </motion.h2>
             <motion.p
               initial={{opacity: 0, y: 20}}
@@ -171,8 +139,8 @@ export default function Trust() {
               transition={{delay: 0.2, duration: 0.6}}
               className="trust-alpha-subheading text-lg text-center mb-8"
             >
-              Most websites sit there doing nothing. Ours work 24/7 to bring you
-              leads, sales, and real growth.
+              Most websites don’t do much. Ours work 24/7 to get you leads and
+              sales.
             </motion.p>
             <motion.div
               initial={{opacity: 0}}
@@ -186,8 +154,8 @@ export default function Trust() {
                     ✅
                   </span>
                   <span className="trust-alpha-list-text text-lg">
-                    <strong>Built for Results</strong> – More clicks, more
-                    calls, more customers.
+                    <strong>Results-Driven</strong> – More clicks, calls, and
+                    customers.
                   </span>
                 </li>
                 <li className="trust-alpha-list-item flex items-start">
@@ -195,8 +163,8 @@ export default function Trust() {
                     ✅
                   </span>
                   <span className="trust-alpha-list-text text-lg">
-                    <strong>Tailored for You</strong> – No generic templates.
-                    Just a website that fits your business perfectly.
+                    <strong>Made for You</strong> – No generic designs. Just
+                    what fits your business.
                   </span>
                 </li>
                 <li className="trust-alpha-list-item flex items-start">
@@ -204,17 +172,8 @@ export default function Trust() {
                     ✅
                   </span>
                   <span className="trust-alpha-list-text text-lg">
-                    <strong>Fast & Google-Friendly</strong> – Speed and SEO that
-                    keep you ahead of competitors.
-                  </span>
-                </li>
-                <li className="trust-alpha-list-item flex items-start">
-                  <span className="trust-alpha-list-icon mr-3 text-green-500 text-2xl">
-                    ✅
-                  </span>
-                  <span className="trust-alpha-list-text text-lg">
-                    <strong>Clear, Powerful Strategy</strong> – Every page is
-                    designed to turn visitors into buyers.
+                    <strong>Fast & SEO-Ready</strong> – Speed and SEO that
+                    outshine competitors.
                   </span>
                 </li>
               </ul>
@@ -226,10 +185,10 @@ export default function Trust() {
               className="trust-alpha-cta text-center mt-8"
             >
               <p className="trust-alpha-cta-heading text-xl font-semibold mb-4">
-                Your Website Should Be Your Best Salesperson.
+                Your Website Should Sell for You.
               </p>
               <p className="trust-alpha-cta-heading text-xl font-semibold mb-8">
-                Let’s build you a website that actually works.
+                Let’s build one that works.
               </p>
               <Button
                 className="trust-alpha-cta-button py-3 px-6 text-lg md:text-xl"
@@ -258,8 +217,7 @@ export default function Trust() {
               transition={{delay: 0.2, duration: 0.6}}
               className="trust-subheading text-lg text-center mb-8"
             >
-              More sales. More customers. More growth. Our websites don’t just
-              look great—they make you money.
+              More sales. More growth. Our websites make you money.
             </motion.p>
             <motion.div
               initial={{opacity: 0}}
@@ -273,8 +231,7 @@ export default function Trust() {
                     💎
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>We Deliver Real Results</strong> – No fluff, just
-                    high-converting websites.
+                    <strong>Real Results</strong> – Websites that convert.
                   </span>
                 </li>
                 <li className="trust-list-item flex items-start justify-center text-center">
@@ -282,8 +239,7 @@ export default function Trust() {
                     🚀
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>Blazing-Fast & Flawless</strong> – No slow loading,
-                    just high-speed performance.
+                    <strong>Fast</strong> – Websites that load instantly.
                   </span>
                 </li>
                 <li className="trust-list-item flex items-start justify-center text-center">
@@ -291,8 +247,7 @@ export default function Trust() {
                     🔒
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>Rock-Solid Security</strong> – 99.9% uptime, no
-                    worries.
+                    <strong>Secure</strong> – 99.9% uptime.
                   </span>
                 </li>
                 <li className="trust-list-item flex items-start justify-center text-center">
@@ -300,8 +255,7 @@ export default function Trust() {
                     🎯
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>SEO & Marketing That Work</strong> – Rank high,
-                    attract customers on autopilot.
+                    <strong>SEO</strong> – Rank higher, attract more customers.
                   </span>
                 </li>
                 <li className="trust-list-item flex items-start justify-center text-center">
@@ -309,8 +263,7 @@ export default function Trust() {
                     🤝
                   </span>
                   <span className="trust-list-text text-lg">
-                    <strong>We’re In This for the Long Run</strong> – We build,
-                    scale, and help you dominate.
+                    <strong>Long-Term Growth</strong> – We help you scale.
                   </span>
                 </li>
               </ul>
@@ -326,13 +279,13 @@ export default function Trust() {
                 Stop settling for average.
               </p>
               <p className="trust-cta-heading text-xl font-semibold mb-8">
-                Get a website that drives serious results.
+                Get a website that works.
               </p>
               <Button
                 className="trust-cta-button cta-button py-3 px-6 text-lg md:text-xl"
                 onClick={() => navigate("/contact")}
               >
-                📩 Let’s build your success story—starting today.
+                📩 Let’s get started today.
               </Button>
             </motion.div>
           </CardContent>
@@ -393,7 +346,7 @@ export default function Trust() {
               transition={{delay: 0.2, duration: 0.6}}
               className="text-lg text-center mb-8"
             >
-              We don’t just design websites—we build money-making machines.
+              We create websites that make you money.
             </motion.p>
             <motion.p
               initial={{opacity: 0, y: 20}}
@@ -401,8 +354,7 @@ export default function Trust() {
               transition={{delay: 0.4, duration: 0.6}}
               className="text-base text-center mb-8"
             >
-              Your competitors are using high-performance websites to get more
-              customers and make more sales—why not you?
+              Don’t let your competition outshine you. Get ahead now!
             </motion.p>
             <motion.div
               initial={{opacity: 0}}
@@ -413,21 +365,17 @@ export default function Trust() {
               <ul className="list-none space-y-4">
                 <li className="flex items-center">
                   <i className="mr-3 fa-solid fa-check-circle text-2xl"></i>
-                  <span className="text-lg">
-                    Beautiful, professional, and fast websites
-                  </span>
+                  <span className="text-lg">Fast, professional websites</span>
                 </li>
                 <li className="flex items-center">
                   <i className="mr-3 fa-solid fa-check-circle text-2xl"></i>
                   <span className="text-lg">
-                    Designed to attract, engage, and convert
+                    Designed to bring in customers
                   </span>
                 </li>
                 <li className="flex items-center">
                   <i className="mr-3 fa-solid fa-check-circle text-2xl"></i>
-                  <span className="text-lg">
-                    Built for long-term success and maximum profit
-                  </span>
+                  <span className="text-lg">Built for long-term profits</span>
                 </li>
               </ul>
             </motion.div>
@@ -438,13 +386,13 @@ export default function Trust() {
               className="text-center mt-8"
             >
               <p className="text-xl font-semibold mb-4">
-                🔹 Let’s create a website that works for you.
+                🔹 Ready to get started?
               </p>
               <Button
                 className="py-3 px-6 text-lg md:text-xl"
                 onClick={() => navigate("/contact")}
               >
-                🔥 Start with Alameen Web Design today
+                🔥 Start now with Alameen Web Design
               </Button>
             </motion.div>
           </CardContent>

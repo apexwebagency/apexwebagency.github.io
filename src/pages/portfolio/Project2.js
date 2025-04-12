@@ -53,13 +53,13 @@ export default function Project2() {
             className="text-5xl font-extrabold text-white drop-shadow-xl"
             id="project1-title"
           >
-            Luxury Brand Website for Elite Fashion House
+            Elite Fashion House Website
           </h1>
           <p
             className="text-lg text-gray-300 mt-3 tracking-wide"
             id="project1-subtitle"
           >
-            +250% Engagement Surge with Stunning Aesthetics
+            +250% More Engagement with a Gorgeous Look
           </p>
         </motion.div>
 
@@ -93,19 +93,19 @@ export default function Project2() {
                 className="flex items-center gap-2"
                 id="project1-highlight-visuals"
               >
-                🎨 <span>High-End Aesthetics</span>
+                🎨 <span>Stunning Design</span>
               </li>
               <li
                 className="flex items-center gap-2"
                 id="project1-highlight-animation"
               >
-                ✨ <span>Silky-Smooth Animations</span>
+                ✨ <span>Smooth Animations</span>
               </li>
               <li
                 className="flex items-center gap-2"
                 id="project1-highlight-engagement"
               >
-                🚀 <span>+250% Engagement Increase</span>
+                🚀 <span>Boosted Engagement by 250%</span>
               </li>
             </ul>
           </CardContent>
@@ -123,7 +123,7 @@ export default function Project2() {
             className="px-8 py-4 text-lg font-bold !text-white bg-gradient-to-r from-purple-500 to-pink-700 hover:from-purple-600 hover:to-pink-800 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
             id="project1-cta-button"
           >
-            Elevate Your Brand. Let’s Talk!
+            Ready to Stand Out? Let’s Chat!
           </button>
         </motion.div>
 
@@ -146,13 +146,13 @@ export default function Project2() {
           id="project1-overview-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-overview-title">
-            Elite Fashion House - Luxury Brand Website
+            Elite Fashion House - Luxury Website
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-overview-subtitle"
           >
-            Stunning Visuals, Seamless Animations, and a High-End Aesthetic
+            Bold looks. Smooth moves. Pure luxury.
           </p>
         </motion.div>
 
@@ -165,16 +165,15 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-client-background-title"
             >
-              Client Background
+              About the Client
             </h2>
             <p
               className="text-gray-300 text-lg"
               id="project1-client-background-text"
             >
-              Elite Fashion House is a prestigious luxury fashion brand known
-              for its timeless designs and premium craftsmanship. They sought a
-              digital experience that mirrored their brand's exclusivity,
-              sophistication, and elegance.
+              Elite Fashion House makes high-end clothes that look and feel
+              amazing. They needed a website that shows off their style — clean,
+              classy, and top-quality.
             </p>
           </CardContent>
         </Card>
@@ -188,15 +187,14 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-project-scope-title"
             >
-              Project Scope
+              What We Did
             </h2>
             <p
               className="text-gray-300 text-lg"
               id="project1-project-scope-text"
             >
-              Our goal was to craft a visually stunning, high-performance
-              website that seamlessly integrated luxury aesthetics with
-              silky-smooth animations and an intuitive user experience.
+              We created a beautiful website that looks rich, feels smooth, and
+              is super easy for anyone to use.
             </p>
           </CardContent>
         </Card>
@@ -217,12 +215,14 @@ export default function Project2() {
               id="project1-key-objectives-list"
             >
               <li id="project1-key-objective-1">
-                🎨 High-End Aesthetic Design
+                🎨 Make the site look rich and stylish
               </li>
               <li id="project1-key-objective-2">
-                💎 Smooth, Elegant Animations
+                💎 Add smooth and classy animations
               </li>
-              <li id="project1-key-objective-3">📈 +250% Engagement Growth</li>
+              <li id="project1-key-objective-3">
+                📈 Boost engagement by 250%+
+              </li>
             </ul>
           </CardContent>
         </Card>
@@ -234,12 +234,13 @@ export default function Project2() {
           className="mt-8"
           id="project1-cta-container"
         >
-          <Button
+          <button
+            onClick={() => navigate("/contact")}
             className="px-8 py-4 text-lg font-bold !text-white bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
             id="project1-cta-button"
           >
-            Elevate Your Brand’s Digital Presence Today!
-          </Button>
+            Make Your Brand Stand Out Today!
+          </button>
         </motion.div>
       </section>
       <section
@@ -254,14 +255,14 @@ export default function Project2() {
           id="project1-challenge-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-challenge-title">
-            The Challenge - Elevating Luxury Online
+            The Challenge
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-challenge-subtitle"
           >
-            Crafting a digital experience that reflects Elite Fashion House’s
-            prestige.
+            Create a website that looks and feels as high-end as Elite Fashion
+            House.
           </p>
         </motion.div>
 
@@ -274,20 +275,20 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-pain-points-title"
             >
-              Specific Challenges
+              Problems We Solved
             </h2>
             <ul
               className="text-gray-300 text-lg space-y-2"
               id="project1-pain-points-list"
             >
               <li id="project1-pain-point-1">
-                💎 Lack of immersive luxury aesthetics
+                💎 The site didn’t look or feel super high-end.
               </li>
               <li id="project1-pain-point-2">
-                🚀 Suboptimal page performance & loading speed
+                🚀 Pages were slow and didn’t load fast.
               </li>
               <li id="project1-pain-point-3">
-                ⚠️ Low engagement and limited brand storytelling
+                ⚠️ Visitors didn’t stay long or connect with the brand.
               </li>
             </ul>
           </CardContent>
@@ -302,21 +303,21 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-impact-title"
             >
-              Impact of These Challenges
+              Why It Was a Problem
             </h2>
             <ul
               className="text-gray-300 text-lg space-y-2"
               id="project1-impact-list"
             >
-              <li id="project1-impact-1">📉 Decreased brand perception</li>
-              <li id="project1-impact-2">
-                😞 Low customer retention & engagement
+              <li id="project1-impact-1">
+                📉 People didn’t see the brand as high-end
               </li>
-              <li id="project1-impact-3">💸 Missed revenue opportunities</li>
+              <li id="project1-impact-2">😞 Customers didn’t stick around</li>
+              <li id="project1-impact-3">💸 Lost chances to make more sales</li>
             </ul>
             <p className="text-gray-300 mt-4" id="project1-impact-summary">
-              "Elite Fashion House needed a platform that exudes sophistication
-              while ensuring flawless functionality."
+              Elite Fashion House needed a website that looked rich and worked
+              perfectly.
             </p>
           </CardContent>
         </Card>
@@ -334,14 +335,14 @@ export default function Project2() {
           id="project1-strategy-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-strategy-title">
-            Our Strategic Approach
+            What We Did
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-strategy-subtitle"
           >
-            Designing an immersive, high-end digital experience that elevates
-            the brand.
+            We built a website that looks amazing and leaves a lasting
+            impression.
           </p>
         </motion.div>
 
@@ -354,20 +355,20 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-analysis-title"
             >
-              In-Depth Analysis
+              Boosting Sales & Beating the Competition
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-analysis-list"
             >
               <li id="project1-analysis-item1">
-                Market trends & luxury brand positioning
+                Trendy designs that customers can’t resist
               </li>
               <li id="project1-analysis-item2">
-                User behavior and engagement insights
+                Simple, clear info on what your customers really want
               </li>
               <li id="project1-analysis-item3">
-                Performance and accessibility audits
+                Quick, easy-to-use checks that make browsing a breeze
               </li>
             </ul>
           </CardContent>
@@ -382,20 +383,20 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-design-development-title"
             >
-              Design & Development
+              Gorgeous Design & Seamless Experience
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-design-development-list"
             >
               <li id="project1-design-item1">
-                Elegant, high-end visuals with silky-smooth animations
+                Stunning visuals that grab attention and flow smoothly
               </li>
               <li id="project1-design-item2">
-                Luxury-inspired UI with seamless navigation
+                Simple, classy design that’s easy to use
               </li>
               <li id="project1-design-item3">
-                Mobile-first, pixel-perfect responsive design
+                Perfect on any device, mobile or desktop
               </li>
             </ul>
           </CardContent>
@@ -410,20 +411,20 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-performance-optimization-title"
             >
-              Performance Optimization
+              Speed & Performance Boost
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-performance-optimization-list"
             >
               <li id="project1-performance-item1">
-                High-speed, optimized image delivery
+                Blazing-fast image load times
               </li>
               <li id="project1-performance-item2">
-                Advanced caching & content delivery networks
+                Smart caching for super speed
               </li>
               <li id="project1-performance-item3">
-                Minimalistic, ultra-fast code architecture
+                Clean, fast code that runs smoothly
               </li>
             </ul>
           </CardContent>
@@ -438,20 +439,20 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-conversion-optimization-title"
             >
-              Engagement & Conversion Optimization
+              Getting More Attention & Sales
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-conversion-optimization-list"
             >
               <li id="project1-conversion-item1">
-                Luxury storytelling through dynamic visuals
+                Showcasing the brand with eye-catching visuals
               </li>
               <li id="project1-conversion-item2">
-                Seamless checkout with trust-building elements
+                Simple checkout that builds trust
               </li>
               <li id="project1-conversion-item3">
-                Strategic call-to-actions to enhance engagement
+                Clear actions that get people to take the next step
               </li>
             </ul>
           </CardContent>
@@ -469,13 +470,13 @@ export default function Project2() {
           id="project1-results-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-results-title">
-            The Transformation
+            The Big Change
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-results-subtitle"
           >
-            How our expertise elevated Elite Fashion House's digital presence.
+            How we helped Elite Fashion House shine online.
           </p>
         </motion.div>
 
@@ -491,14 +492,10 @@ export default function Project2() {
               Performance Highlights
             </h2>
             <ul className="text-gray-300 text-lg list-disc list-inside">
-              <li id="project1-engagement">
-                +250% increase in brand engagement
-              </li>
-              <li id="project1-visual-impact">
-                Ultra-smooth animations & visuals
-              </li>
-              <li id="project1-luxury-feel">
-                Enhanced high-end aesthetic for luxury appeal
+              <li id="project1-sales-growth">250% more brand engagement</li>
+              <li id="project1-page-load">Smooth, eye-catching animations</li>
+              <li id="project1-checkout-rate">
+                A stylish look that grabs attention
               </li>
             </ul>
           </CardContent>
@@ -533,17 +530,17 @@ export default function Project2() {
               className="text-2xl font-semibold mb-3"
               id="project1-beyond-title"
             >
-              Beyond the Metrics
+              What We Achieved
             </h2>
             <ul className="text-gray-300 text-lg list-disc list-inside">
               <li id="project1-user-feedback">
-                Clients raving about the ultra-premium experience
+                Clients are loving the high-end look!
               </li>
-              <li id="project1-trust">
-                Elevated brand perception & exclusivity
+              <li id="project1-support-tickets">
+                The brand feels trusted and top-notch.
               </li>
-              <li id="project1-loyalty">
-                Increased customer retention in the luxury market
+              <li id="project1-brand-perception">
+                More customers are coming back for more!
               </li>
             </ul>
           </CardContent>
@@ -564,13 +561,13 @@ export default function Project2() {
             className="text-4xl font-extrabold"
             id="project1-testimonial-title"
           >
-            Client Testimonial
+            What Our Client Says
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-testimonial-subtitle"
           >
-            See how we transformed Elite Fashion House’s digital presence.
+            Check out how we helped Elite Fashion House shine online.
           </p>
         </motion.div>
 
@@ -583,11 +580,11 @@ export default function Project2() {
               className="text-xl italic text-gray-300 mb-4"
               id="project1-testimonial-quote"
             >
-              “Our website now embodies luxury. The sleek animations, high-end
-              aesthetics, and seamless experience have elevated our brand’s
-              prestige. Engagement has soared, and our clientele feels the
-              exclusivity.”
+              "Our new website feels amazing! The smooth design, cool
+              animations, and easy navigation have helped our brand shine and
+              get more attention."
             </p>
+
             <div
               className="text-gray-400 text-lg font-semibold"
               id="project1-testimonial-client"
@@ -605,18 +602,19 @@ export default function Project2() {
           className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-bold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
           id="project1-testimonial-button"
         >
-          Elevate Your Brand Now →
+          Boost Your Brand Today →
         </button>
       </section>
 
       {/* Irresistible Offer Section */}
       <div className="offer-section">
         <h2 className="offer-title">
-          🚀 Get a Free Website Audit (Worth $200) – Limited Spots Available!
+          🚀 Claim Your FREE Website Checkup (Worth $200) – Only a Few Spots
+          Left!
         </h2>
         <p className="offer-text">
-          Find out what's stopping your website from converting visitors into
-          customers in just 24 hours!
+          Discover what's holding your website back from turning visitors into
+          paying customers in just 24 hours!
         </p>
 
         {/* Offer Form */}
@@ -661,14 +659,14 @@ export default function Project2() {
             className="text-4xl font-extrabold project1-summary-title"
             id="project1-summary-title"
           >
-            Elevate Your Brand to Elite Status
+            Take Your Brand to the Next Level
           </h1>
           <p
             className="text-lg text-gray-300 mt-3 project1-summary-description"
             id="project1-summary-description"
           >
-            Elite Fashion House transformed its online presence with a sleek,
-            high-end website—achieving a +250% engagement boost.
+            Elite Fashion House revamped their website and saw a huge 250% boost
+            in engagement.
           </p>
         </motion.div>
 
@@ -678,11 +676,11 @@ export default function Project2() {
         >
           <CardContent className="project1-reassurance-content">
             <h2 className="text-2xl font-semibold mb-3 project1-reassurance-title">
-              Your Luxury Brand Deserves the Best
+              Your Brand Deserves the Best
             </h2>
             <p className="text-lg text-gray-300 project1-reassurance-description">
-              Don't let an outdated website dull your brand’s prestige. Let’s
-              craft a digital experience that matches your luxury identity.
+              We've helped top brands grow big. Now, imagine what we can do for
+              you!
             </p>
           </CardContent>
         </Card>
@@ -692,7 +690,7 @@ export default function Project2() {
           className="mt-10 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 project1-cta-button"
           id="project1-cta-button"
         >
-          Build Your Luxury Website Now →
+          Create Your Dream Website Now →
         </button>
       </section>
     </>

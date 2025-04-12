@@ -53,13 +53,13 @@ export default function Project3() {
             className="text-5xl font-extrabold text-white drop-shadow-xl"
             id="project1-title"
           >
-            High-Converting SaaS Website for InnovateX Software 🚀
+            Boosting Sales for InnovateX Software 🚀
           </h1>
           <p
             className="text-lg text-gray-300 mt-3 tracking-wide"
             id="project1-subtitle"
           >
-            +400% Sign-Ups in Record Time!
+            +400% More Sign-Ups in No Time!
           </p>
         </motion.div>
 
@@ -93,19 +93,19 @@ export default function Project3() {
                 className="flex items-center gap-2"
                 id="project1-highlight-conversions"
               >
-                🚀 <span>+400% More Sign-Ups</span>
+                🚀 <span>+400% More Sign-Ups!</span>
               </li>
               <li
                 className="flex items-center gap-2"
                 id="project1-highlight-ui"
               >
-                🎯 <span>Conversion-Driven Design</span>
+                🎯 <span>Built to Boost Conversions</span>
               </li>
               <li
                 className="flex items-center gap-2"
                 id="project1-highlight-cta"
               >
-                ⚡ <span>Strategically Placed CTAs</span>
+                ⚡ <span>Perfectly Placed CTAs</span>
               </li>
             </ul>
           </CardContent>
@@ -123,7 +123,7 @@ export default function Project3() {
             className="px-8 py-4 text-lg font-bold !text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
             id="project1-cta-button"
           >
-            Want Explosive Growth? Let’s Talk!
+            Ready to Grow Fast? Let’s Chat!
           </button>
         </motion.div>
 
@@ -146,14 +146,14 @@ export default function Project3() {
           id="project1-overview-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-overview-title">
-            High-Converting SaaS Website for InnovateX Software 🚀
+            Game-Changing Website for InnovateX Software 🚀
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-overview-subtitle"
           >
-            Smartly placed CTAs, engaging UI, and a conversion-driven experience
-            that boosted sign-ups by +400%.
+            We created a super easy-to-use site with buttons that make people
+            sign up fast — boosting sign-ups by over 400%!
           </p>
         </motion.div>
 
@@ -166,15 +166,15 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-client-background-title"
             >
-              Client Overview
+              About InnovateX
             </h2>
             <p
               className="text-gray-300 text-lg"
               id="project1-client-background-text"
             >
-              InnovateX Software is a cutting-edge SaaS company providing
-              next-generation business solutions. They needed a website that
-              could drive more conversions and optimize user engagement.
+              InnovateX makes awesome tools that help businesses grow fast. They
+              wanted a website that turns visitors into customers and keeps them
+              coming back for more.
             </p>
           </CardContent>
         </Card>
@@ -188,15 +188,14 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-project-scope-title"
             >
-              Project Scope
+              What We Did
             </h2>
             <p
               className="text-gray-300 text-lg"
               id="project1-project-scope-text"
             >
-              Our goal was to design a high-performance website with an
-              intuitive UI, persuasive CTAs, and seamless navigation to maximize
-              user engagement and conversions.
+              We built a fast, smooth website that’s easy to navigate and helps
+              turn visitors into real customers.
             </p>
           </CardContent>
         </Card>
@@ -210,18 +209,18 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-key-objectives-title"
             >
-              Key Achievements
+              Big Wins
             </h2>
             <ul
               className="grid grid-cols-1 md:grid-cols-3 gap-6 text-lg font-semibold text-gray-300"
               id="project1-key-objectives-list"
             >
-              <li id="project1-key-objective-1">
-                🚀 +400% Increase in Sign-ups
+              <li id="project1-key-objective-1">🚀 4x More Sign-ups!</li>
+              <li id="project1-key-objective-2">
+                🎯 Smarter & Smoother User Experience
               </li>
-              <li id="project1-key-objective-2">🎯 Optimized User Journey</li>
               <li id="project1-key-objective-3">
-                📈 Higher Retention & Engagement
+                📈 More Retention & Engagement
               </li>
             </ul>
           </CardContent>
@@ -239,13 +238,14 @@ export default function Project3() {
           id="project1-challenge-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-challenge-title">
-            The Challenge – InnovateX Software's Growth Barrier 🚀
+            The Challenge – InnovateX Software's Growth 🚀
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-challenge-subtitle"
           >
-            Identifying key obstacles to maximize conversions and engagement.
+            Figuring out what's stopping growth and how to get more people
+            involved.
           </p>
         </motion.div>
 
@@ -258,18 +258,18 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-pain-points-title"
             >
-              Specific Pain Points
+              What’s Been Holding Them Back
             </h2>
             <ul
               className="text-gray-300 text-lg space-y-2"
               id="project1-pain-points-list"
             >
-              <li id="project1-pain-point-1">📉 Low user sign-up rates</li>
-              <li id="project1-pain-point-2">
-                🤖 Unintuitive UI & poor navigation
+              <li id="project1-pain-point-1">
+                📉 Not enough people signing up
               </li>
+              <li id="project1-pain-point-2">🤖 Hard to use and navigate</li>
               <li id="project1-pain-point-3">
-                ⚠️ Ineffective CTAs leading to drop-offs
+                ⚠️ Buttons that don’t get clicks
               </li>
             </ul>
           </CardContent>
@@ -284,23 +284,23 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-impact-title"
             >
-              Impact of These Pain Points
+              The Problem
             </h2>
             <ul
               className="text-gray-300 text-lg space-y-2"
               id="project1-impact-list"
             >
-              <li id="project1-impact-1">📉 Missed revenue opportunities</li>
+              <li id="project1-impact-1">📉 Lost sales</li>
               <li id="project1-impact-2">
-                😟 Frustrated users & low engagement
+                😟 Frustrated users & low interaction
               </li>
               <li id="project1-impact-3">
-                🚪 High bounce rates affecting retention
+                🚪 High drop-offs & fewer return visits
               </li>
             </ul>
             <p className="text-gray-300 mt-4" id="project1-impact-summary">
-              "InnovateX Software was losing potential customers due to a
-              confusing user journey and weak call-to-action placements."
+              "InnovateX Software was missing out on customers because their
+              website was hard to navigate and lacked clear calls to action."
             </p>
           </CardContent>
         </Card>
@@ -318,14 +318,14 @@ export default function Project3() {
           id="project1-strategy-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-strategy-title">
-            Our Strategic Approach
+            Our Winning Plan
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-strategy-subtitle"
           >
-            A conversion-driven, user-focused strategy to turn InnovateX
-            Software into a high-performing SaaS platform.
+            We created a simple, user-friendly plan that helped InnovateX
+            Software become a strong, high-performing platform.
           </p>
         </motion.div>
 
@@ -338,17 +338,21 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-analysis-title"
             >
-              In-Depth Analysis
+              Boosting Sales & Beating Competitors
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-analysis-list"
             >
-              <li id="project1-analysis-item1">User flow optimization</li>
-              <li id="project1-analysis-item2">
-                Competitor research & benchmarking
+              <li id="project1-analysis-item1">
+                Understanding what makes customers happy
               </li>
-              <li id="project1-analysis-item3">Performance & UX audits</li>
+              <li id="project1-analysis-item2">
+                Leaving competitors in the dust
+              </li>
+              <li id="project1-analysis-item3">
+                Making sure everything runs smooth & fast
+              </li>
             </ul>
           </CardContent>
         </Card>
@@ -369,13 +373,13 @@ export default function Project3() {
               id="project1-design-development-list"
             >
               <li id="project1-design-item1">
-                Sleek, conversion-focused SaaS UI
+                Clean, easy-to-use design that drives action
               </li>
               <li id="project1-design-item2">
-                Seamless user onboarding & experience
+                Simple and smooth sign-up process
               </li>
               <li id="project1-design-item3">
-                Optimized CTAs & frictionless sign-up process
+                Clear buttons that make it easy to get started
               </li>
             </ul>
           </CardContent>
@@ -390,20 +394,20 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-performance-optimization-title"
             >
-              Performance Optimization
+              Website Speed & Performance
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-performance-optimization-list"
             >
               <li id="project1-performance-item1">
-                Enhanced speed with minimized scripts & assets
+                Faster loading by reducing unnecessary files
               </li>
               <li id="project1-performance-item2">
-                Caching strategies & API load balancing
+                Smart caching & better load handling
               </li>
               <li id="project1-performance-item3">
-                Mobile responsiveness & accessibility improvements
+                Fully mobile-friendly & easy to use for everyone
               </li>
             </ul>
           </CardContent>
@@ -418,20 +422,21 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-conversion-optimization-title"
             >
-              Conversion Optimization
+              Boosting Conversions
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-conversion-optimization-list"
             >
               <li id="project1-conversion-item1">
-                Smartly placed CTAs for lead generation
+                Clear and strong CTAs to grab attention
               </li>
               <li id="project1-conversion-item2">
-                Trust elements: testimonials, case studies, and security badges
+                Trust builders: real reviews, success stories, and security
+                seals
               </li>
               <li id="project1-conversion-item3">
-                Continuous A/B testing for higher engagement
+                Ongoing tests to keep people hooked and engaged
               </li>
             </ul>
           </CardContent>
@@ -456,8 +461,8 @@ export default function Project3() {
             className="text-lg text-gray-300 mt-3"
             id="project1-results-subtitle"
           >
-            Measurable impact on InnovateX Software’s user acquisition &
-            retention.
+            Big improvements in getting and keeping users for InnovateX
+            Software.
           </p>
         </motion.div>
 
@@ -470,15 +475,13 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-metrics-title"
             >
-              Key Metrics
+              Results That Speak
             </h2>
             <ul className="text-gray-300 text-lg list-disc list-inside">
-              <li id="project1-signups">+400% Increase in Sign-Ups</li>
-              <li id="project1-engagement">
-                2X Higher User Engagement & Retention
-              </li>
-              <li id="project1-loading-time">
-                Page Load Speed Optimized to &lt; 1 Second
+              <li id="project1-sales-growth">Sign-Ups Up by 400%</li>
+              <li id="project1-page-load">Engagement & Retention Doubled</li>
+              <li id="project1-checkout-rate">
+                Page Loads in Less Than 1 Second
               </li>
             </ul>
           </CardContent>
@@ -513,18 +516,12 @@ export default function Project3() {
               className="text-2xl font-semibold mb-3"
               id="project1-beyond-title"
             >
-              Beyond the Numbers
+              Results That Matter
             </h2>
             <ul className="text-gray-300 text-lg list-disc list-inside">
-              <li id="project1-user-feedback">
-                Increased positive user feedback
-              </li>
-              <li id="project1-support-tickets">
-                Reduced support tickets by 60%
-              </li>
-              <li id="project1-brand-perception">
-                Enhanced brand trust & perception
-              </li>
+              <li id="project1-user-feedback">More happy customers</li>
+              <li id="project1-support-tickets">60% fewer customer issues</li>
+              <li id="project1-brand-perception">Stronger brand trust</li>
             </ul>
           </CardContent>
         </Card>
@@ -544,14 +541,14 @@ export default function Project3() {
             className="text-4xl font-extrabold"
             id="project1-testimonial-title"
           >
-            Client Testimonial
+            What Our Client Says
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-testimonial-subtitle"
           >
-            See how we transformed InnovateX Software’s website into a
-            conversion powerhouse.
+            Check out how we turned InnovateX Software’s website into a
+            money-making machine!
           </p>
         </motion.div>
 
@@ -564,16 +561,16 @@ export default function Project3() {
               className="text-xl italic text-gray-300 mb-4"
               id="project1-testimonial-quote"
             >
-              “After the redesign, our sign-ups increased by over 400%! The site
-              is incredibly fast, user-friendly, and drives real conversions.
-              Best investment we made for our SaaS platform!”
+              "After the redesign, our sign-ups shot up by over 400%! The site
+              is fast, easy to use, and brings in real results. Best decision we
+              made for our platform!"
             </p>
             <div
               className="text-gray-400 text-lg font-semibold"
               id="project1-testimonial-client"
             >
               <p id="project1-testimonial-name">Alex Carter</p>
-              <p id="project1-testimonial-title">CEO of InnovateX Software</p>
+              <p id="project1-testimonial-title">CEO, InnovateX Software</p>
             </div>
           </CardContent>
         </Card>
@@ -583,18 +580,19 @@ export default function Project3() {
           className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-bold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
           id="project1-testimonial-button"
         >
-          Get Your High-Converting Website Now →
+          Get Your Dream Website Today →
         </button>
       </section>
 
       {/* Irresistible Offer Section */}
       <div className="offer-section">
         <h2 className="offer-title">
-          🚀 Get a Free Website Audit (Worth $200) – Limited Spots Available!
+          🚀 Claim Your FREE Website Checkup (Worth $200) – Only a Few Spots
+          Left!
         </h2>
         <p className="offer-text">
-          Find out what's stopping your website from converting visitors into
-          customers in just 24 hours!
+          Discover what's holding your website back from turning visitors into
+          paying customers in just 24 hours!
         </p>
 
         {/* Offer Form */}
@@ -639,14 +637,14 @@ export default function Project3() {
             className="text-4xl font-extrabold project1-summary-title"
             id="project1-summary-title"
           >
-            Transform Your SaaS Business—Next Success Story? 🚀
+            Ready to Boost Your SaaS Business? 🚀
           </h1>
           <p
             className="text-lg text-gray-300 mt-3 project1-summary-description"
             id="project1-summary-description"
           >
-            InnovateX Software went from an outdated website to a **+400%
-            increase in sign-ups** with a sleek, high-converting redesign.
+            InnovateX Software updated their site and saw **+400% more
+            sign-ups** with a fresh, high-conversion design.
           </p>
         </motion.div>
 
@@ -659,8 +657,8 @@ export default function Project3() {
               Let’s Make It Happen for You!
             </h2>
             <p className="text-lg text-gray-300 project1-reassurance-description">
-              Your SaaS platform deserves a website that converts. Get a
-              cutting-edge, user-friendly design that drives real results.
+              Your SaaS needs a website that works. We’ll create an easy-to-use,
+              modern design that gets real results.
             </p>
           </CardContent>
         </Card>
@@ -670,7 +668,7 @@ export default function Project3() {
           className="mt-10 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 project1-cta-button"
           id="project1-cta-button"
         >
-          Ready to Skyrocket Conversions? Contact Us Now!
+          Let’s Boost Your Sales! Get in Touch Today!
         </button>
       </section>
     </>

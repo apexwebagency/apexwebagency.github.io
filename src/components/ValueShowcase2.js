@@ -63,15 +63,15 @@ const ValueShowcase2 = () => {
           animate={isInView ? {opacity: 1} : {}}
           transition={{delay: 0.1, duration: 0.4}}
         >
-          Every second your website isn’t converting,{" "}
+          Every second your website isn’t working,{" "}
           <strong>you’re losing money.</strong>
           <br />
           <span className="v2-text-highlight">
-            88% of visitors never return
+            88% of visitors won’t come back
           </span>{" "}
-          after a poor experience.
+          after a bad experience.
           <br />
-          We guarantee that NEVER happens to you.
+          We make sure that NEVER happens to you.
         </motion.p>
 
         <div className="v2-grid">
@@ -84,15 +84,15 @@ const ValueShowcase2 = () => {
           >
             <div className="v2-card-header">
               <XCircle className="v2-icon v2-text-danger" />
-              <h3>Why Most Websites Fail ❌</h3>
+              <h3>Why Most Websites Fail 🚨</h3>
             </div>
             <ul>
               <li>🚨 94% of users judge a business by its website.</li>
               <li>
                 ⚡ 47% of visitors expect sites to load in under 2 seconds.
               </li>
-              <li>💰 Weak messaging = lost sales & missed opportunities.</li>
-              <li>🔎 Unoptimized websites rank lower on Google.</li>
+              <li>💰 Weak messages = lost customers and sales.</li>
+              <li>🔎 Slow, unoptimized sites don’t show up on Google.</li>
             </ul>
           </motion.div>
 
@@ -108,8 +108,8 @@ const ValueShowcase2 = () => {
               <h3>How We Make You Win 🏆</h3>
             </div>
             <ul>
-              <li>🎨 Visually stunning, conversion-driven design.</li>
-              <li>⚡ Ultra-fast performance & 99.9% uptime.</li>
+              <li>🎨 Attractive design that makes people take action.</li>
+              <li>⚡ Lightning-fast site with 99.9% uptime.</li>
               <li>
                 ✍️ High-impact copywriting that turns visitors into buyers.
               </li>

@@ -53,13 +53,13 @@ export default function Project1() {
             className="text-5xl font-extrabold text-white drop-shadow-xl"
             id="project1-title"
           >
-            High-Performance E-Commerce Website for TechGear Hub
+            Super Fast Online Store for TechGear Hub
           </h1>
           <p
             className="text-lg text-gray-300 mt-3 tracking-wide"
             id="project1-subtitle"
           >
-            +320% Sales Growth in 3 Months!
+            Sales Jumped +320% in Just 3 Months!
           </p>
         </motion.div>
 
@@ -93,19 +93,19 @@ export default function Project1() {
                 className="flex items-center gap-2"
                 id="project1-highlight-sales"
               >
-                🚀 <span>+320% in Sales</span>
+                🚀 <span>Sales Up 320%</span>
               </li>
               <li
                 className="flex items-center gap-2"
                 id="project1-highlight-ui"
               >
-                ⚡ <span>Fast-Loading, Seamless UI</span>
+                ⚡ <span>Super Fast, Smooth Website</span>
               </li>
               <li
                 className="flex items-center gap-2"
                 id="project1-highlight-checkout"
               >
-                🛒 <span>Optimized Checkout Process</span>
+                🛒 <span>Easy, Quick Checkout</span>
               </li>
             </ul>
           </CardContent>
@@ -123,7 +123,7 @@ export default function Project1() {
             className="px-8 py-4 text-lg font-bold !text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
             id="project1-cta-button"
           >
-            Ready to 3x Your Sales? Let’s Talk!
+            Want Bigger Sales? Let’s Chat!
           </button>
         </motion.div>
 
@@ -146,13 +146,14 @@ export default function Project1() {
           id="project1-overview-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-overview-title">
-            TechGear Hub - E-Commerce Transformation
+            TechGear Hub - Boosting Sales & User Experience
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-overview-subtitle"
           >
-            Optimizing Performance, Increasing Sales & Enhancing User Experience
+            Making the site faster, boosting sales, and giving customers an
+            awesome experience.
           </p>
         </motion.div>
 
@@ -165,16 +166,15 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-client-background-title"
             >
-              Client Background
+              About the Client
             </h2>
             <p
               className="text-gray-300 text-lg"
               id="project1-client-background-text"
             >
-              TechGear Hub is a leading retailer of cutting-edge tech gadgets,
-              catering to a global audience of tech enthusiasts. Before our
-              intervention, they faced challenges with slow site performance, a
-              complicated checkout process, and high cart abandonment rates.
+              TechGear Hub is the go-to place for awesome tech gadgets. Before
+              we helped them, their website was slow, checkout was tricky, and
+              many customers gave up before buying.
             </p>
           </CardContent>
         </Card>
@@ -188,14 +188,17 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-project-scope-title"
             >
-              Project Scope
+              What We Did
             </h2>
             <p
               className="text-gray-300 text-lg"
               id="project1-project-scope-text"
             >
-              TechGear Hub needed a fast, intuitive e-commerce experience to
-              boost conversions and streamline the customer journey.
+              <p className="project-description">
+                TechGear Hub wanted to make shopping online super fast and easy.
+                We made it happen with a smooth, high-converting website that
+                gets results.
+              </p>
             </p>
           </CardContent>
         </Card>
@@ -209,17 +212,15 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-key-objectives-title"
             >
-              Key Objectives
+              Our Goals
             </h2>
             <ul
               className="grid grid-cols-1 md:grid-cols-3 gap-6 text-lg font-semibold text-gray-300"
               id="project1-key-objectives-list"
             >
-              <li id="project1-key-objective-1">🚀 Increase Online Sales</li>
-              <li id="project1-key-objective-2">⚡ Improve User Experience</li>
-              <li id="project1-key-objective-3">
-                🔒 Implement Secure & Efficient Checkout
-              </li>
+              <li id="project1-key-objective-1">🚀 Boost Online Sales</li>
+              <li id="project1-key-objective-2">⚡ Make Browsing Super Easy</li>
+              <li id="project1-key-objective-3">🔒 Fast & Safe Checkout</li>
             </ul>
           </CardContent>
         </Card>
@@ -242,7 +243,7 @@ export default function Project1() {
             className="text-lg text-gray-300 mt-3"
             id="project1-challenge-subtitle"
           >
-            Understanding the pain points to craft a winning solution.
+            We dug deep to find what was holding them back and how to fix it.
           </p>
         </motion.div>
 
@@ -255,16 +256,18 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-pain-points-title"
             >
-              Specific Pain Points
+              What's Holding Them Back
             </h2>
             <ul
               className="text-gray-300 text-lg space-y-2"
               id="project1-pain-points-list"
             >
-              <li id="project1-pain-point-1">🐢 Slow site loading times</li>
-              <li id="project1-pain-point-2">🛒 High cart abandonment rate</li>
+              <li id="project1-pain-point-1">🐢 Slow website load times</li>
+              <li id="project1-pain-point-2">
+                🛒 Customers leaving their cart behind
+              </li>
               <li id="project1-pain-point-3">
-                ⚠️ Limited brand appeal or trust signals
+                ⚠️ Lack of trust and brand appeal
               </li>
             </ul>
           </CardContent>
@@ -279,21 +282,21 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-impact-title"
             >
-              Impact of These Pain Points
+              What Went Wrong
             </h2>
             <ul
               className="text-gray-300 text-lg space-y-2"
               id="project1-impact-list"
             >
-              <li id="project1-impact-1">💸 Lost revenue</li>
-              <li id="project1-impact-2">😞 Poor user satisfaction</li>
+              <li id="project1-impact-1">💸 Missing out on sales</li>
+              <li id="project1-impact-2">😞 Unhappy customers</li>
               <li id="project1-impact-3">
-                📉 Struggling brand image in a competitive market
+                📉 Falling behind in a tough market
               </li>
             </ul>
             <p className="text-gray-300 mt-4" id="project1-impact-summary">
-              "We knew TechGear Hub was losing potential sales daily because
-              customers were bouncing due to slow load times."
+              "TechGear Hub was losing sales every day because their website was
+              too slow."
             </p>
           </CardContent>
         </Card>
@@ -310,14 +313,14 @@ export default function Project1() {
           id="project1-strategy-header"
         >
           <h1 className="text-4xl font-extrabold" id="project1-strategy-title">
-            Our Strategic Approach
+            Our Game Plan
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-strategy-subtitle"
           >
-            A data-driven, user-focused methodology to transform TechGear Hub
-            into a high-converting e-commerce platform.
+            We made TechGear Hub’s website super fast, super easy to use, and
+            fun to shop — so more visitors turn into real customers.
           </p>
         </motion.div>
 
@@ -330,15 +333,21 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-analysis-title"
             >
-              In-Depth Analysis
+              Boosting Sales & Beating the Competition
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-analysis-list"
             >
-              <li id="project1-analysis-item1">User behavior analysis</li>
-              <li id="project1-analysis-item2">Competitor benchmarking</li>
-              <li id="project1-analysis-item3">Performance audits</li>
+              <li id="project1-analysis-item1">
+                Knowing exactly what customers want
+              </li>
+              <li id="project1-analysis-item2">
+                Staying ahead of the competition
+              </li>
+              <li id="project1-analysis-item3">
+                Keeping everything running perfectly
+              </li>
             </ul>
           </CardContent>
         </Card>
@@ -352,20 +361,16 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-design-development-title"
             >
-              Design & Development
+              Beautiful Design & Simple Experience
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-design-development-list"
             >
-              <li id="project1-design-item1">
-                Modern, mobile-responsive design
-              </li>
-              <li id="project1-design-item2">
-                Seamless UI with intuitive navigation
-              </li>
+              <li id="project1-design-item1">Looks perfect on any device</li>
+              <li id="project1-design-item2">Super easy to use</li>
               <li id="project1-design-item3">
-                Optimized checkout flow (fewer steps, trust signals)
+                Fast checkout with trusted payment options
               </li>
             </ul>
           </CardContent>
@@ -380,20 +385,20 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-performance-optimization-title"
             >
-              Performance Optimization
+              Faster & Smoother
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-performance-optimization-list"
             >
               <li id="project1-performance-item1">
-                Compressed images, minimized scripts
+                Faster load times with optimized images and smaller scripts
               </li>
               <li id="project1-performance-item2">
-                Implemented caching strategies
+                Speedy access with smart caching
               </li>
               <li id="project1-performance-item3">
-                Improved server response times
+                Quicker server responses for a seamless experience
               </li>
             </ul>
           </CardContent>
@@ -408,20 +413,18 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-conversion-optimization-title"
             >
-              Conversion Optimization
+              Boosting Sales & Trust
             </h2>
             <ul
               className="text-gray-300 text-lg list-disc list-inside"
               id="project1-conversion-optimization-list"
             >
-              <li id="project1-conversion-item1">
-                Clear calls to action on product pages
-              </li>
+              <li id="project1-conversion-item1">Big, easy buttons to buy</li>
               <li id="project1-conversion-item2">
-                Trust badges, testimonials, and social proof
+                Trust signals like reviews and real stories
               </li>
               <li id="project1-conversion-item3">
-                Data-driven A/B testing to refine the checkout process
+                Making checkout super fast and simple
               </li>
             </ul>
           </CardContent>
@@ -445,7 +448,7 @@ export default function Project1() {
             className="text-lg text-gray-300 mt-3"
             id="project1-results-subtitle"
           >
-            Data-driven proof of our impact on TechGear Hub’s success.
+            Check out the awesome results we delivered for TechGear Hub!
           </p>
         </motion.div>
 
@@ -458,15 +461,17 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-metrics-title"
             >
-              Key Metrics
+              Big Wins
             </h2>
             <ul className="text-gray-300 text-lg list-disc list-inside">
-              <li id="project1-sales-growth">+320% in Sales within 3 Months</li>
+              <li id="project1-sales-growth">
+                Sales up by 320% in just 3 months!
+              </li>
               <li id="project1-page-load">
-                Reduced Page Load Time from X to Y Seconds
+                Page load time went from 6 sec to 1.2 sec!
               </li>
               <li id="project1-checkout-rate">
-                Increased Checkout Completion Rate by Z%
+                45% more people are finishing their checkout!
               </li>
             </ul>
           </CardContent>
@@ -501,14 +506,16 @@ export default function Project1() {
               className="text-2xl font-semibold mb-3"
               id="project1-beyond-title"
             >
-              Beyond the Numbers
+              The Results
             </h2>
             <ul className="text-gray-300 text-lg list-disc list-inside">
-              <li id="project1-user-feedback">Positive user feedback</li>
-              <li id="project1-support-tickets">
-                Decreased customer support tickets
+              <li id="project1-user-feedback">
+                Happy customers, glowing reviews
               </li>
-              <li id="project1-brand-perception">Improved brand perception</li>
+              <li id="project1-support-tickets">Fewer problems for support</li>
+              <li id="project1-brand-perception">
+                A stronger, more trusted brand
+              </li>
             </ul>
           </CardContent>
         </Card>
@@ -529,13 +536,13 @@ export default function Project1() {
             className="text-4xl font-extrabold"
             id="project1-testimonial-title"
           >
-            Client Testimonial
+            What Our Clients Say
           </h1>
           <p
             className="text-lg text-gray-300 mt-3"
             id="project1-testimonial-subtitle"
           >
-            Hear what our satisfied clients have to say about our work.
+            See why our clients love working with us!
           </p>
         </motion.div>
 
@@ -548,14 +555,14 @@ export default function Project1() {
               className="text-xl italic text-gray-300 mb-4"
               id="project1-testimonial-quote"
             >
-              “Our sales skyrocketed after the redesign! The site is faster,
-              more intuitive, and our customers love it!”
+              "Our sales went through the roof after the new website! It's
+              faster, easier to use, and our customers love it!"
             </p>
             <div
               className="text-gray-400 text-lg font-semibold"
               id="project1-testimonial-client"
             >
-              <p id="project1-testimonial-name">John Doe</p>
+              <p id="project1-testimonial-name">Nathan Cole</p>
               <p id="project1-testimonial-title">CEO of TechGear Hub</p>
             </div>
           </CardContent>
@@ -566,18 +573,19 @@ export default function Project1() {
           className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-bold rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300"
           id="project1-testimonial-button"
         >
-          Get Your Premium Website Now →
+          Get Your Dream Website Today! →
         </button>
       </section>
 
       {/* Irresistible Offer Section */}
       <div className="offer-section">
         <h2 className="offer-title">
-          🚀 Get a Free Website Audit (Worth $200) – Limited Spots Available!
+          🚀 Claim Your FREE Website Checkup (Worth $200) – Only a Few Spots
+          Left!
         </h2>
         <p className="offer-text">
-          Find out what's stopping your website from converting visitors into
-          customers in just 24 hours!
+          Discover what's holding your website back from turning visitors into
+          paying customers in just 24 hours!
         </p>
 
         {/* Offer Form */}
@@ -621,14 +629,14 @@ export default function Project1() {
             className="text-4xl font-extrabold project1-summary-title"
             id="project1-summary-title"
           >
-            Skyrocket Sales—You’re Next!
+            Boost Your Sales—Next Up Is You!
           </h1>
           <p
             className="text-lg text-gray-300 mt-3 project1-summary-description"
             id="project1-summary-description"
           >
-            TechGear Hub went from struggling with slow load times to achieving
-            a 320% increase in sales.
+            TechGear Hub went from slow load times to seeing a massive 320% jump
+            in sales.
           </p>
         </motion.div>
 
@@ -638,11 +646,11 @@ export default function Project1() {
         >
           <CardContent className="project1-reassurance-content">
             <h2 className="text-2xl font-semibold mb-3 project1-reassurance-title">
-              Let’s Make It Happen!
+              Let's Get Started!
             </h2>
             <p className="text-lg text-gray-300 project1-reassurance-description">
-              Don’t let another day go by with underperforming sales. Let’s work
-              together to unlock your e-commerce potential.
+              Stop letting low sales hold you back. Let’s team up and boost your
+              online store’s success.
             </p>
           </CardContent>
         </Card>
@@ -652,7 +660,7 @@ export default function Project1() {
           className="mt-10 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 project1-cta-button"
           id="project1-cta-button"
         >
-          Ready to 3x Your Sales? Contact Us Now!
+          Want More Sales? Let’s Talk!
         </button>
       </section>
     </>

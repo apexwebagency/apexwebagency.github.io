@@ -30,7 +30,7 @@ const faqs = [
     id: 4,
     question: "What makes your designs different?",
     answer:
-      "\ud83d\udd25 Most designers focus on “pretty.” We focus on profit. My websites are built with psychology-driven layouts, conversion-focused strategies, and cutting-edge marketing tactics—so your site doesn’t just look great, it sells like crazy.",
+      "\ud83d\udd25 Most designers focus on “pretty.” We focus on profit. Our websites are built with psychology-driven layouts, conversion-focused strategies, and cutting-edge marketing tactics—so your site doesn’t just look great, it sells like crazy.",
   },
   {
     id: 5,

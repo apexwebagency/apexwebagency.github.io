@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import {useEffect} from "react";
 import "../../styles/PrivacyPolicy.css"; // Import a CSS file for styling
 
 const PrivacyPolicy = () => {
@@ -245,7 +245,7 @@ const PrivacyPolicy = () => {
               href="mailto:alameenwebdesign01@gmail.com"
               className="privacy-section-8-link"
             >
-              abdulazeezalameen01@gmail.com
+              alameenwebdesign01@gmail.com
             </a>
             .
           </p>
@@ -302,10 +302,10 @@ const PrivacyPolicy = () => {
             📧{" "}
             <strong className="privacy-section-13-strong-email">Email:</strong>{" "}
             <a
-              href="mailto:abdulazeezalameen01@gmail.com"
+              href="mailto:alameenwebdesign01@gmail.com"
               className="privacy-section-13-link-email"
             >
-              abdulazeezalameen01@gmail.com
+              alameenwebdesign01@gmail.com
             </a>
           </p>
           <p className="privacy-section-13-paragraph-2">

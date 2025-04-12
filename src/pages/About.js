@@ -71,7 +71,7 @@ const About = () => {
           About Alameen Web Design
         </h2>
         <p className="lead fw-semibold text-light fs-4 about-custom-subheading">
-          Luxury Websites That Drive Massive Revenue & Conversions
+          We Build Luxury Websites That Make You More Money
         </p>
 
         <div
@@ -130,11 +130,10 @@ const About = () => {
 
         <div className="w-100">
           <p className="fw-semibold text-light fs-5 about-custom-description text-center">
-            At Alameen Web Design, we specialize in crafting premium websites
-            tailored to elevate your brand and drive exceptional results. Our
-            expert team blends stunning aesthetics with cutting-edge technology,
-            ensuring seamless user experiences and high conversion rates. Let’s
-            build something extraordinary together.
+            At Alameen Web Design, we create amazing websites that make your
+            brand look great and bring you more customers. Our team mixes
+            beautiful designs with smart tech to make sure your site is easy to
+            use and gets real results. Let’s build something awesome together!
           </p>
         </div>
       </section>
@@ -149,29 +148,26 @@ const About = () => {
             <strong>1️⃣ We Create Websites That Sell</strong>
           </p>
           <p className="about-point-1-desc">
-            Most designers just focus on aesthetics. We go beyond that. Our
-            websites are engineered to convert visitors into paying customers.
-            Every button, every section, and every word is strategically placed
-            for maximum impact.
+            While others focus just on looks, we go further. Our websites are
+            designed to turn visitors into customers. Every button, every word,
+            and every section is built to make an impact and get results.
           </p>
 
           <p className="about-point-2">
-            <strong>2️⃣ We Combine Web Design & Deep Marketing Expertise</strong>
+            <strong>2️⃣ We Build Websites That Get Results</strong>
           </p>
           <p className="about-point-2-desc">
-            Unlike most web designers, we’re not just coders—we’re marketers
-            first. We understand buyer psychology, sales funnels, and how to
-            make people click, trust, and buy.
+            Most web designers just make things look pretty. We know how to make
+            people click, trust you, and buy from you. It's design + smart
+            marketing in one.
           </p>
-
           <p className="about-point-3">
-            <strong>3️⃣ Ultra-Fast, Google-Friendly & Mobile-Optimized</strong>
+            <strong>3️⃣ Fast, Mobile-Friendly & Google Approved</strong>
           </p>
           <p className="about-point-3-desc">
-            🚀 Speed matters. Studies show that 47% of visitors expect a site to
-            load in under 2 seconds—or they leave. Our sites are blazing fast,
-            perfectly responsive, and SEO-powered to rank higher and attract
-            more traffic.
+            🚀 Speed is everything. If your site takes too long, people leave.
+            Our websites load super fast, look great on any device, and are
+            built to get noticed on Google — bringing in more visitors!
           </p>
           <img
             src={SpeedTest}
@@ -183,9 +179,9 @@ const About = () => {
             <strong>4️⃣ 100% Custom-Made for Maximum Profits</strong>
           </p>
           <p className="about-point-4-desc">
-            No generic templates. We create tailor-made solutions based on your
-            brand, audience, and business goals—so your site actually works for
-            your success.
+            Forget templates! We build a website that’s made just for you,
+            focused on your brand, audience, and goals — so it brings in real
+            profits.
           </p>
           <img
             src={CustomWebsite}
@@ -194,11 +190,11 @@ const About = () => {
           />
 
           <p className="about-point-5">
-            <strong>5️⃣ A Hassle-Free, Stress-Free Process</strong>
+            <strong>5️⃣ Easy and Stress-Free</strong>
           </p>
           <p className="about-point-5-desc">
-            We make the entire experience easy, smooth, and enjoyable for you.
-            No delays, no confusion—just fast, powerful results.
+            We keep it simple. No waiting, no guessing — just fast, clear
+            results you’ll love.
           </p>
         </div>
       </section>
