@@ -26,7 +26,7 @@ function Home() {
   }, []);
 
   // Dynamic Hero Text Animation
-  const words = ["Powerful", "Premium", "Scalable", "Reliable"];
+  const words = ["Sales", "Clients", "Growth", "Success"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -119,16 +119,16 @@ function Home() {
       {/* Hero Section */}
       <div className="hero-section">
         <h1 className="hero-title">
-          Boost Your Business with{" "}
+          We Build Websites That Bring{" "}
           <span className={`dynamic-word ${fade ? "fade-in" : "fade-out"}`}>
             {words[currentWordIndex]}
-          </span>{" "}
-          Websites
+          </span>
         </h1>
         <p className="hero-text">
-          We build <strong>luxury websites</strong> that get you{" "}
-          <strong>real results</strong>.
+          Get a <strong>website</strong> that <strong>looks amazing</strong> and{" "}
+          <strong>makes you money</strong>.
         </p>
+
         <Link to="/portfolio" className="hero-button">
           See Our Work
         </Link>
