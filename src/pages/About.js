@@ -130,10 +130,10 @@ const About = () => {
 
         <div className="w-100">
           <p className="fw-semibold text-light fs-5 about-custom-description text-center">
-            At Alameen Web Design, we create amazing websites that make your
-            brand look great and bring you more customers. Our team mixes
-            beautiful designs with smart tech to make sure your site is easy to
-            use and gets real results. Let’s build something awesome together!
+            At <strong>Alameen Web Design</strong>, we create{" "}
+            <strong>websites</strong> that <strong>bring more customers</strong>{" "}
+            and <strong>boost your sales</strong>. Let’s make your brand{" "}
+            <strong>stand out</strong>!
           </p>
         </div>
       </section>
