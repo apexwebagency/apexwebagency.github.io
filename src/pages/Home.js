@@ -26,7 +26,7 @@ function Home() {
   }, []);
 
   // Dynamic Hero Text Animation
-  const words = ["Profitable", "Scalable", "Reliable", "Premium"];
+  const words = ["Powerful", "Premium", "Scalable", "Reliable"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
