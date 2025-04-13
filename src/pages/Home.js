@@ -26,7 +26,7 @@ function Home() {
   }, []);
 
   // Dynamic Hero Text Animation
-  const words = ["Sales", "Clients", "Growth", "Success"];
+  const words = ["Sales", "Clients", "Growth", "Profit"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
