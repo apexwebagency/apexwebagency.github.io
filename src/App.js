@@ -24,6 +24,10 @@ AOS.init();
 
 function App() {
   useEffect(() => {
+    if (window.fbq) {
+      window.fbq("track", "PageView");
+    }
+
     document.documentElement.style.overflowX = "hidden";
     document.documentElement.style.width = "100%";
     document.body.style.overflowX = "hidden";
@@ -35,7 +39,7 @@ function App() {
       document.body.style.overflowX = "";
       document.body.style.width = "";
     };
-  }, []);
+  }, [location]);
 
   return (
     <Router>
