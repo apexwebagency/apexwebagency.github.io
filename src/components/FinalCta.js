@@ -25,14 +25,30 @@ const FinalCta = () => {
       </ul>
       <p className="cta-action">Success favors action. Don’t wait.</p>
       <div className="cta-buttons">
-        <Link to="/contact" className="cta-button primary">
+        <Link
+          to="/contact"
+          className="cta-button primary"
+          onClick={() => {
+            if (typeof fbq !== "undefined") {
+              fbq("track", "ViewContent", {
+                content_name: "Launch Website Now Click",
+              });
+            }
+          }}
+        >
           🚀 Launch Your Premium Website Now
         </Link>
+
         <a
           href="https://wa.me/2347083652671"
           target="_blank"
           rel="noopener noreferrer"
           className="cta-button secondary"
+          onClick={() => {
+            if (typeof fbq !== "undefined") {
+              fbq("track", "Contact", {content_name: "WhatsApp Chat"});
+            }
+          }}
         >
           📲 Chat on WhatsApp
         </a>

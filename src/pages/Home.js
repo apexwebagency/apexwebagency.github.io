@@ -42,6 +42,12 @@ function Home() {
     return () => clearInterval(interval);
   }, []);
 
+  const trackProjectClick = (projectName) => {
+    if (typeof fbq !== "undefined") {
+      fbq("track", "ViewContent", {content_name: projectName});
+    }
+  };
+
   // Testimonial Slider
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -140,7 +146,9 @@ function Home() {
           className="hero-button"
           onClick={() => {
             if (typeof fbq !== "undefined") {
-              fbq("track", "ViewContent"); // or any event you want
+              fbq("track", "ViewContent", {
+                content_name: "See Our Work Button",
+              });
             }
           }}
         >
@@ -327,7 +335,11 @@ function Home() {
               alt="E-Commerce Preview"
               className="project-image"
             />
-            <Link to="/portfolio/project1" className="project-button">
+            <Link
+              to="/portfolio/project1"
+              className="project-button"
+              onClick={() => trackProjectClick("Project 1")}
+            >
               View Project
             </Link>
           </div>
@@ -350,7 +362,11 @@ function Home() {
               alt="Luxury Brand Preview"
               className="project-image"
             />
-            <Link to="/portfolio/project2" className="project-button">
+            <Link
+              to="/portfolio/project2"
+              className="project-button"
+              onClick={() => trackProjectClick("Project 2")}
+            >
               View Project
             </Link>
           </div>
@@ -372,13 +388,27 @@ function Home() {
               alt="SaaS Website Preview"
               className="project-image"
             />
-            <Link to="/portfolio/project3" className="project-button">
+            <Link
+              to="/portfolio/project3"
+              className="project-button"
+              onClick={() => trackProjectClick("Project 3")}
+            >
               View Project
             </Link>
           </div>
         </div>
 
-        <Link to="/contact" className="cta-button">
+        <Link
+          to="/contact"
+          className="cta-button"
+          onClick={() => {
+            if (typeof fbq !== "undefined") {
+              fbq("track", "ViewContent", {
+                content_name: "Get a Custom Website",
+              });
+            }
+          }}
+        >
           🔹 Get a Custom Website
         </Link>
       </div>
@@ -415,7 +445,12 @@ function Home() {
         <motion.button
           className="trust-services-cta-button py-3 px-6 text-lg mt-8 block mx-auto rounded-lg shadow-md"
           whileHover={{scale: 1.1}}
-          onClick={() => navigate("/services")}
+          onClick={() => {
+            if (typeof fbq !== "undefined") {
+              fbq("track", "ViewContent", {content_name: "Services Page"});
+            }
+            navigate("/services");
+          }}
         >
           Learn More →
         </motion.button>
@@ -441,20 +476,40 @@ function Home() {
               if (window.innerWidth >= 768) {
                 e.preventDefault();
                 alert("Please use a mobile device to call.");
+              } else {
+                if (typeof fbq !== "undefined") {
+                  fbq("track", "Contact", {content_name: "Phone Call"});
+                }
               }
             }}
           >
             🔥 Claim Your Free Strategy Call
           </a>
 
-          <Link to="/contact" className="cta-button secondary">
+          <Link
+            to="/contact"
+            className="cta-button secondary"
+            onClick={() => {
+              if (typeof fbq !== "undefined") {
+                fbq("track", "ViewContent", {
+                  content_name: "Launch Project Click",
+                });
+              }
+            }}
+          >
             🚀 Launch Your Project Now
           </Link>
+
           <a
             href="https://wa.me/2347083652671"
             className="cta-button whatsapp"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => {
+              if (typeof fbq !== "undefined") {
+                fbq("track", "Contact", {content_name: "WhatsApp Chat"});
+              }
+            }}
           >
             💬 Instant WhatsApp Chat
           </a>

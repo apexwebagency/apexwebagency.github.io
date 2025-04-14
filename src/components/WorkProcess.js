@@ -83,6 +83,10 @@ const WorkProcess = () => {
           if (!/Mobi|Android/i.test(navigator.userAgent)) {
             e.preventDefault();
             alert("Please use a mobile device to call.");
+          } else {
+            if (typeof fbq !== "undefined") {
+              fbq("track", "Contact", {content_name: "Phone Call"});
+            }
           }
         }}
       >
