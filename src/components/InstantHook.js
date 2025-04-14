@@ -11,6 +11,7 @@ import ValueShowcase2 from "./ValueShowcase2.js";
 import Trust from "./Trust.js";
 
 export default function InstantHook() {
+  const navigate = useNavigate();
   return (
     <section className="w-full px-0 bg-black">
       {/* Isolate Instant Hook from General Container */}
@@ -60,9 +61,12 @@ export default function InstantHook() {
         <SocialProof />
       </div>
       <div className="text-center mt-12 w-full">
-        <Button className="cta-button py-3 px-6 text-lg md:text-xl">
+        <button
+          onClick={() => navigate("/contact")}
+          className="cta-button py-3 px-6 text-lg md:text-xl"
+        >
           Get Your Premium Website Now
-        </Button>
+        </button>
       </div>
       <div className="mt-16 w-full">
         <Showcase />

@@ -92,18 +92,28 @@ function Contact() {
             </button>
 
             <button
-              onClick={() =>
-                window.open("https://wa.me/2347083652671", "_blank")
-              }
+              onClick={() => {
+                if (typeof fbq !== "undefined") {
+                  fbq("track", "Contact", {
+                    content_name: "WhatsApp Chat",
+                  });
+                }
+                window.open("https://wa.me/2347083652671", "_blank");
+              }}
               className="customUnique-contact-direct-whatsapp w-full bg-green-600 text-white font-semibold py-3 rounded-lg shadow-lg transition hover:bg-green-500"
             >
               📱 WhatsApp: Click Here to Chat
             </button>
 
             <button
-              onClick={() =>
-                (window.location.href = "mailto:alameenwebdesign01@gmail.com")
-              }
+              onClick={() => {
+                if (typeof fbq !== "undefined") {
+                  fbq("track", "Contact", {
+                    content_name: "Email",
+                  });
+                }
+                window.location.href = "mailto:alameenwebdesign01@gmail.com";
+              }}
               className="customUnique-contact-direct-email w-full bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-lg transition hover:bg-blue-500"
             >
               📧 Email: Click Here to Send
@@ -173,9 +183,18 @@ function Contact() {
                 className="customUnique-form-input customUnique-form-input-message"
               />
             </div>
-            <button type="submit" className="customUnique-form-submit-button">
-              Send Message
+            <button
+              type="submit"
+              className="offer-button"
+              onClick={() => {
+                if (typeof fbq !== "undefined") {
+                  fbq("track", "Contact", {content_name: "Direct Contact"});
+                }
+              }}
+            >
+              Claim Our Free Audit
             </button>
+
             {status && (
               <p className="customUnique-form-status-message">{status}</p>
             )}
