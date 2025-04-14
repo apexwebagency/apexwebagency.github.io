@@ -75,6 +75,12 @@ function Home() {
         "https://leadform-backend-production.up.railway.app/submit", // ✅ UPDATED to public URL
         formData
       );
+      // FIRE Facebook Pixel event
+      if (typeof fbq !== "undefined") {
+        fbq("track", "Lead", {
+          content_name: "Free Audit Form Submission",
+        });
+      }
       setMessage(response.data.message);
       setFormData({name: "", email: ""}); // Reset form
     } catch (error) {
@@ -129,7 +135,15 @@ function Home() {
           <strong>makes you money</strong>.
         </p>
 
-        <Link to="/portfolio" className="hero-button">
+        <Link
+          to="/portfolio"
+          className="hero-button"
+          onClick={() => {
+            if (typeof fbq !== "undefined") {
+              fbq("track", "ViewContent"); // or any event you want
+            }
+          }}
+        >
           See Our Work
         </Link>
       </div>
@@ -207,7 +221,17 @@ function Home() {
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          <Link to="/about" className="why-choose-us-button">
+          <Link
+            to="/about"
+            className="why-choose-us-button"
+            onClick={() => {
+              if (typeof fbq !== "undefined") {
+                fbq("track", "ViewContent", {
+                  content_name: "Why Choose Us Button",
+                });
+              }
+            }}
+          >
             🚀 Why Choose Us
           </Link>
         </div>
