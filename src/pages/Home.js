@@ -174,13 +174,13 @@ function Home() {
         </p>
       </div>
 
-      {/* Why Clients Love Alameen Web Design */}
+      {/* Why Clients Love Alameen Web Agency */}
       <section className="why-clients-love-section">
         <div className="why-clients-love-container">
           <h2 className="why-clients-love-title" data-aos="fade-up">
             💡 Why Clients Love{" "}
             <span className="why-clients-love-highlight">
-              Alameen Web Design
+              Alameen Web Agency
             </span>
           </h2>
           <p

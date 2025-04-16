@@ -68,7 +68,7 @@ const About = () => {
       {/* About Section */}
       <section className="about-section container py-5 text-center about-custom-section mx-auto mb-5">
         <h2 className="fw-bold display-5 text-uppercase about-custom-heading">
-          About Alameen Web Design
+          About Alameen Web Agency
         </h2>
         <p className="lead fw-semibold text-light fs-4 about-custom-subheading">
           We Build Luxury Websites That Make You More Money
@@ -130,7 +130,7 @@ const About = () => {
 
         <div className="w-100">
           <p className="fw-semibold text-light fs-5 about-custom-description text-center">
-            At <strong>Alameen Web Design</strong>, we create{" "}
+            At <strong>Alameen Web Agency</strong>, we create{" "}
             <strong>websites</strong> that <strong>bring more customers</strong>{" "}
             and <strong>boost your sales</strong>. Let’s make your brand{" "}
             <strong>stand out</strong>!
@@ -308,7 +308,7 @@ const About = () => {
           {/* Founder Story */}
           <div className="col-md-7 text-start">
             <p className="lead founder-intro">
-              Hey, I’m Alameen, the founder of Alameen Web Design.
+              Hey, I’m Alameen, the founder of Alameen Web Agency.
             </p>
             <p className="founder-story">
               I started this journey because I saw businesses wasting money on

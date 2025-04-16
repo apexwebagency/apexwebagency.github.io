@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
           <p className="privacy-section-1-paragraph-1">
             Welcome to{" "}
             <strong className="privacy-section-1-strong">
-              Alameen Web Design
+              Alameen Web Agency
             </strong>
             . We are committed to protecting your personal data and respecting
             your privacy. This Privacy Policy explains how we collect, use, and
@@ -319,7 +319,7 @@ const PrivacyPolicy = () => {
 
         <footer className="privacy-footer">
           <p className="privacy-footer-text">
-            © 2025 Alameen Web Design. All rights reserved.
+            © 2025 Alameen Web Agency. All rights reserved.
           </p>
         </footer>
       </div>

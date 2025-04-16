@@ -35,7 +35,7 @@ function MyNavbar() {
               height="32"
               className="me-2"
             />
-            <span className="fs-4">Alameen Web Design</span>
+            <span className="fs-4">Alameen Web Agency</span>
           </BootstrapNavbar.Brand>
 
           {/* Navbar Toggle (for mobile) */}

@@ -48,7 +48,7 @@ export default function Trust() {
               transition={{duration: 0.6}}
               className="trust-heading text-3xl font-bold text-center mb-4"
             >
-              Why Choose Alameen Web Design?
+              Why Choose Alameen Web Agency?
             </motion.h2>
             <motion.p
               initial={{opacity: 0, y: 20}}
@@ -392,7 +392,7 @@ export default function Trust() {
                 className="py-3 px-6 text-lg md:text-xl"
                 onClick={() => navigate("/contact")}
               >
-                🔥 Start now with Alameen Web Design
+                🔥 Start now with Alameen Web Agency
               </Button>
             </motion.div>
           </CardContent>

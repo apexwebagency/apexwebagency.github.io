@@ -62,7 +62,7 @@ const Services = () => {
     <section className="services-section">
       <div className="container mx-auto text-center">
         <h2 className="services-title">
-          Alameen Web Design – Websites That Sell
+          Alameen Web Agency – Websites That Sell
         </h2>
         <p className="services-description">
           We build websites that grab attention and boost sales.

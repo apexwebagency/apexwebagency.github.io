@@ -108,7 +108,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p className="m-0">© 2025 Alameen Web Design. All rights reserved.</p>
+          <p className="m-0">© 2025 Alameen Web Agency. All rights reserved.</p>
         </div>
       </div>
     </footer>
