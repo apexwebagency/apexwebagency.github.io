@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import sendEmail from "../utils/emailService.js";
-import trust from "../assets/images/trust.jpg";
+import trust from "../assets/images/trust.webp";
 import work from "../assets/images/work.jpg";
 import result from "../assets/images/result.png";
 import chat from "../assets/images/chats.jpg";
