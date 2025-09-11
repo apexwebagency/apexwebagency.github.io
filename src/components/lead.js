@@ -59,7 +59,8 @@ const MyForm = () => {
         Claim Our Free Audit
       </button>
 
-      <p>{message}</p>
+      {/* Form Submission Message */}
+      {message && <p className="form-message">{message}</p>}
     </form>
   );
 };

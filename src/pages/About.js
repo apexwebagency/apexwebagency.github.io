@@ -1,10 +1,10 @@
-import {useEffect, useState, useRef} from "react";
-import {Link, useNavigate} from "react-router-dom";
+import { useEffect, useState, useRef } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useInView} from "framer-motion";
-import {motion} from "framer-motion";
-import {CheckCircle, XCircle} from "lucide-react";
+import { useInView } from "framer-motion";
+import { motion } from "framer-motion";
+import { CheckCircle, XCircle } from "lucide-react";
 import Team1 from "../assets/images/Team1.webp";
 import Team2 from "../assets/images/Team2.webp";
 import Team3 from "../assets/images/Team3.webp";
@@ -19,7 +19,7 @@ import SocialProof from "../components/SocialProof.js";
 const About = () => {
   const ref = useRef(null);
   // Lower the inView threshold to trigger animations sooner
-  const isInView = useInView(ref, {once: false, amount: 0.1});
+  const isInView = useInView(ref, { once: false, amount: 0.1 });
   const [counts, setCounts] = useState({
     clients: 0,
     projects: 0,
@@ -36,9 +36,9 @@ const About = () => {
           currentValue += increment;
           if (currentValue >= endValue) {
             clearInterval(counter);
-            setCounts((prev) => ({...prev, [key]: endValue}));
+            setCounts((prev) => ({ ...prev, [key]: endValue }));
           } else {
-            setCounts((prev) => ({...prev, [key]: Math.floor(currentValue)}));
+            setCounts((prev) => ({ ...prev, [key]: Math.floor(currentValue) }));
           }
         }, 50);
       };
@@ -68,7 +68,7 @@ const About = () => {
       {/* About Section */}
       <section className="about-section container py-5 text-center about-custom-section mx-auto mb-5">
         <h2 className="fw-bold display-5 text-uppercase about-custom-heading">
-          About Alameen Web Agency
+          About Apex Web Agency
         </h2>
         <p className="lead fw-semibold text-light fs-4 about-custom-subheading">
           We Build Luxury Websites That Make You More Money
@@ -130,7 +130,7 @@ const About = () => {
 
         <div className="w-100">
           <p className="fw-semibold text-light fs-5 about-custom-description text-center">
-            At <strong>Alameen Web Agency</strong>, we create{" "}
+            At <strong>Apex Web Agency</strong>, we create{" "}
             <strong>websites</strong> that <strong>bring more customers</strong>{" "}
             and <strong>boost your sales</strong>. Let’s make your brand{" "}
             <strong>stand out</strong>!
@@ -208,24 +208,24 @@ const About = () => {
       <section ref={ref} className="v2-showcase-container">
         <motion.div
           className="v2-content-wrapper"
-          initial={{opacity: 0}}
-          animate={isInView ? {opacity: 1} : {}}
-          transition={{duration: 0.4, ease: "easeOut"}}
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : {}}
+          transition={{ duration: 0.4, ease: "easeOut" }}
         >
           <motion.h2
             className="v2-heading"
-            initial={{opacity: 0, y: 0}}
-            animate={isInView ? {opacity: 1, y: 0} : {}}
-            transition={{duration: 0.4, ease: "easeOut"}}
+            initial={{ opacity: 0, y: 0 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.4, ease: "easeOut" }}
           >
             97% of Businesses Fail Online. <br /> Yours Won’t—If You Act Now! 🚀
           </motion.h2>
 
           <motion.p
             className="v2-description"
-            initial={{opacity: 0}}
-            animate={isInView ? {opacity: 1} : {}}
-            transition={{delay: 0.1, duration: 0.4}}
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : {}}
+            transition={{ delay: 0.1, duration: 0.4 }}
           >
             Every second your website isn’t converting,{" "}
             <strong>you’re losing money.</strong>
@@ -242,9 +242,9 @@ const About = () => {
             <motion.div
               className="v2-card"
               // Red card slides in from the left
-              initial={{opacity: 0, x: -50}}
-              animate={isInView ? {opacity: 1, x: 0} : {}}
-              transition={{duration: 0.4, ease: "easeOut"}}
+              initial={{ opacity: 0, x: -50 }}
+              animate={isInView ? { opacity: 1, x: 0 } : {}}
+              transition={{ duration: 0.4, ease: "easeOut" }}
             >
               <div className="v2-card-header">
                 <XCircle className="v2-icon v2-text-danger" />
@@ -263,9 +263,9 @@ const About = () => {
             <motion.div
               className="v2-card"
               // Green card slides in from the right
-              initial={{opacity: 0, x: 50}}
-              animate={isInView ? {opacity: 1, x: 0} : {}}
-              transition={{duration: 0.4, ease: "easeOut"}}
+              initial={{ opacity: 0, x: 50 }}
+              animate={isInView ? { opacity: 1, x: 0 } : {}}
+              transition={{ duration: 0.4, ease: "easeOut" }}
             >
               <div className="v2-card-header">
                 <CheckCircle className="v2-icon v2-text-success" />
@@ -294,21 +294,21 @@ const About = () => {
       {/* Founder Section */}
       <section className="container py-5 text-center founder-section mb-5">
         <h2 className="fw-bold display-5 text-uppercase founder-heading">
-          Meet the Founder – Alameen
+          Meet the Founder – ALAMEEN
         </h2>
         <div className="row align-items-center my-4">
           {/* Professional Portrait */}
           <div className="col-md-5">
             <img
               src={professionalPortrait}
-              alt="Alameen Professional Portrait"
+              alt="Apex Professional Portrait"
               className="img-fluid rounded founder-portrait"
             />
           </div>
           {/* Founder Story */}
           <div className="col-md-7 text-start">
             <p className="lead founder-intro">
-              Hey, I’m Alameen, the founder of Alameen Web Agency.
+              Hey, I’m Al-ameen, the founder of Apex Web Agency.
             </p>
             <p className="founder-story">
               I started this journey because I saw businesses wasting money on
@@ -331,7 +331,7 @@ const About = () => {
           <div className="col">
             <img
               src={work}
-              alt="Alameen at Work"
+              alt="Apex at Work"
               className="img-fluid rounded shadow founder-candid-photo"
             />
           </div>

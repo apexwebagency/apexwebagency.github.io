@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import sendEmail from "../utils/emailService.js";
 import trust from "../assets/images/trust.webp";
 import work from "../assets/images/work.jpg";
@@ -7,12 +7,12 @@ import chat from "../assets/images/chats.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/contact.css";
-import {FaInstagram, FaYoutube, FaTiktok} from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    AOS.init({duration: 1000, once: true});
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ function Contact() {
     setStatus(response.message);
 
     if (response.success) {
-      setFormData({name: "", email: "", message: ""});
+      setFormData({ name: "", email: "", message: "" });
     }
   };
 
@@ -84,7 +84,7 @@ function Contact() {
               onClick={() =>
                 document
                   .getElementById("contact-form")
-                  .scrollIntoView({behavior: "smooth"})
+                  .scrollIntoView({ behavior: "smooth" })
               }
               className="customUnique-contact-direct-title w-full bg-gray-800 text-white font-semibold py-3 rounded-lg shadow-lg transition hover:bg-gray-700"
             >
@@ -112,7 +112,7 @@ function Contact() {
                     content_name: "Email",
                   });
                 }
-                window.location.href = "mailto:alameenwebdesign01@gmail.com";
+                window.location.href = "mailto:apexagency.web@gmail.com";
               }}
               className="customUnique-contact-direct-email w-full bg-blue-600 text-white font-semibold py-3 rounded-lg shadow-lg transition hover:bg-blue-500"
             >
@@ -188,7 +188,7 @@ function Contact() {
               className="offer-button"
               onClick={() => {
                 if (typeof fbq !== "undefined") {
-                  fbq("track", "Contact", {content_name: "Direct Contact"});
+                  fbq("track", "Contact", { content_name: "Direct Contact" });
                 }
               }}
             >
@@ -202,14 +202,12 @@ function Contact() {
         </div>
       </section>
 
-      {/* Why Clients Love Alameen Web Design */}
+      {/* Why Clients Love Apex Web Design */}
       <section className="why-clients-love-section">
         <div className="why-clients-love-container">
           <h2 className="why-clients-love-title" data-aos="fade-up">
             💡 Why Clients Love{" "}
-            <span className="why-clients-love-highlight">
-              Alameen Web Agency
-            </span>
+            <span className="why-clients-love-highlight">Apex Web Agency</span>
           </h2>
           <p
             className="why-clients-love-description"
@@ -305,7 +303,7 @@ function Contact() {
         <div className="social-icons-container text-center mt-8">
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/alameenwebdesign"
+            href="https://www.instagram.com/apex.web.agency/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon social-instagram inline-block mx-4 text-pink-600 hover:text-pink-700 transition transform hover:scale-110"
@@ -314,7 +312,7 @@ function Contact() {
           </a>
           {/* YouTube */}
           <a
-            href="https://www.youtube.com/@AlameenWebDesign"
+            href="https://www.youtube.com/@apex.web.agency"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon social-youtube inline-block mx-4 text-red-600 hover:text-red-700 transition transform hover:scale-110"
@@ -323,7 +321,7 @@ function Contact() {
           </a>
           {/* TikTok */}
           <a
-            href="https://www.tiktok.com/@alameen.web.design"
+            href="https://www.tiktok.com/@apex.web.agency"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon social-tiktok inline-block mx-4 text-black hover:text-gray-700 transition transform hover:scale-110"

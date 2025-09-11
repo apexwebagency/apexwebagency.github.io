@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../../styles/Terms_and_conditons.css"; // Import your CSS file for styling
 
 const Terms_and_conditons = () => {
@@ -14,11 +14,10 @@ const Terms_and_conditons = () => {
           2025
         </p>
         <p className="terms-intro">
-          Welcome to{" "}
-          <strong className="terms-company">Alameen Web Agency</strong>. By
-          accessing or using our website and services, you agree to be bound by
-          the following terms and conditions. If you do not agree with any part
-          of these terms, please do not use our services.
+          Welcome to <strong className="terms-company">Apex Web Agency</strong>.
+          By accessing or using our website and services, you agree to be bound
+          by the following terms and conditions. If you do not agree with any
+          part of these terms, please do not use our services.
         </p>
 
         {/* Section 1: Definitions */}
@@ -26,8 +25,8 @@ const Terms_and_conditons = () => {
           <h2 className="terms-section-1-heading">1. Definitions</h2>
           <ul className="terms-section-1-list">
             <li className="terms-section-1-item">
-              <strong>"Company," "we," "our," "us"</strong> refers to Alameen
-              Web Agency.
+              <strong>"Company," "we," "our," "us"</strong> refers to Apex Web
+              Agency.
             </li>
             <li className="terms-section-1-item">
               <strong>"Client," "you," "your"</strong> refers to any person or
@@ -35,15 +34,12 @@ const Terms_and_conditons = () => {
             </li>
             <li className="terms-section-1-item">
               <strong>"Services"</strong> refers to the design, development, and
-              optimization of websites provided by Alameen Web Agency.
+              optimization of websites provided by Apex Web Agency.
             </li>
             <li className="terms-section-1-item">
               <strong>"Website"</strong> refers to{" "}
-              <a
-                href="https://alameenwebdesign.github.io/"
-                className="terms-link"
-              >
-                https://alameenwebdesign.github.io/
+              <a href="https://apexwebagency.github.io/" className="terms-link">
+                https://apexwebagency.github.io/
               </a>{" "}
               and any subdomains.
             </li>
@@ -283,18 +279,16 @@ const Terms_and_conditons = () => {
             contact us at:
           </p>
           <p className="terms-section-14-paragraph">
-            <strong className="terms-contact-company">
-              Alameen Web Agency
-            </strong>
+            <strong className="terms-contact-company">Apex Web Agency</strong>
             <br />
             📍 Badagry, Nigeria
             <br />
             📧 Email:{" "}
             <a
-              href="mailto:alameenwebdesign01@gmail.com"
+              href="mailto:apexagency.web@gmail.com"
               className="terms-contact-email"
             >
-              alameenwebdesign01@gmail.com
+              apexagency.web@gmail.com
             </a>
             <br />
             📞 Phone: +234 811 789 6398
@@ -303,7 +297,7 @@ const Terms_and_conditons = () => {
 
         <footer className="terms-footer">
           <p className="terms-footer-text">
-            © 2025 Alameen Web Agency. All rights reserved.
+            © 2025 Apex Web Agency. All rights reserved.
           </p>
         </footer>
       </div>

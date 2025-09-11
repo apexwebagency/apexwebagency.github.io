@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import {NavLink} from "react-router-dom";
-import {Navbar as BootstrapNavbar, Nav, Container} from "react-bootstrap";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Navbar as BootstrapNavbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/images/logo2.png"; // ✅ Correct path
 import "../styles/Navbar.css"; // Import custom CSS
 
@@ -35,7 +35,7 @@ function MyNavbar() {
               height="32"
               className="me-2"
             />
-            <span className="fs-4">Alameen Web Agency</span>
+            <span className="fs-4">Apex Web Agency</span>
           </BootstrapNavbar.Brand>
 
           {/* Navbar Toggle (for mobile) */}

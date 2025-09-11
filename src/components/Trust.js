@@ -1,8 +1,8 @@
 import React from "react";
-import {useNavigate} from "react-router-dom";
-import {motion} from "framer-motion";
-import {Card, CardContent} from "../components/ui/card.js";
-import {Button} from "../components/ui/button.js";
+import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Card, CardContent } from "../components/ui/card.js";
+import { Button } from "../components/ui/button.js";
 import "../styles/trust.css";
 import "../styles/sml-services.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -43,33 +43,33 @@ export default function Trust() {
         <Card className="trust-card shadow-lg rounded-lg overflow-hidden">
           <CardContent className="trust-card-content p-8">
             <motion.h2
-              initial={{opacity: 0, y: -20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{duration: 0.6}}
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
               className="trust-heading text-3xl font-bold text-center mb-4"
             >
-              Why Choose Alameen Web Agency?
+              Why Choose Apex Web Agency?
             </motion.h2>
             <motion.p
-              initial={{opacity: 0, y: 20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{delay: 0.2, duration: 0.6}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
               className="trust-subheading text-lg text-center mb-8"
             >
               We create websites that turn visitors into customers.
             </motion.p>
             <motion.p
-              initial={{opacity: 0, y: 20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{delay: 0.4, duration: 0.6}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
               className="trust-description text-base text-center mb-8"
             >
               Fast, effective, and built to grow your business.
             </motion.p>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.6, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.6 }}
               className="trust-list-container max-w-2xl mx-auto"
             >
               <ul className="trust-list list-none space-y-4">
@@ -100,9 +100,9 @@ export default function Trust() {
               </ul>
             </motion.div>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.8, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.8, duration: 0.6 }}
               className="trust-cta text-center mt-8"
             >
               <p className="trust-cta-heading text-xl font-semibold mb-4">
@@ -126,26 +126,26 @@ export default function Trust() {
         <Card className="trust-alpha-card shadow-lg rounded-lg overflow-hidden">
           <CardContent className="trust-alpha-card-content p-8">
             <motion.h2
-              initial={{opacity: 0, y: -20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{duration: 0.6}}
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
               className="trust-alpha-heading text-3xl font-bold text-center mb-4"
             >
               Your Website Should Make You Money
             </motion.h2>
             <motion.p
-              initial={{opacity: 0, y: 20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{delay: 0.2, duration: 0.6}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
               className="trust-alpha-subheading text-lg text-center mb-8"
             >
               Most websites don’t do much. Ours work 24/7 to get you leads and
               sales.
             </motion.p>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.4, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
               className="trust-alpha-list-container max-w-2xl mx-auto"
             >
               <ul className="trust-alpha-list list-none space-y-4">
@@ -179,9 +179,9 @@ export default function Trust() {
               </ul>
             </motion.div>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.6, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.6 }}
               className="trust-alpha-cta text-center mt-8"
             >
               <p className="trust-alpha-cta-heading text-xl font-semibold mb-4">
@@ -204,25 +204,25 @@ export default function Trust() {
         <Card className="trust-card shadow-lg rounded-lg overflow-hidden">
           <CardContent className="trust-card-content p-8">
             <motion.h2
-              initial={{opacity: 0, y: -20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{duration: 0.6}}
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
               className="trust-heading text-3xl font-bold text-center mb-4"
             >
               Built for Trust. Designed for Success.
             </motion.h2>
             <motion.p
-              initial={{opacity: 0, y: 20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{delay: 0.2, duration: 0.6}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
               className="trust-subheading text-lg text-center mb-8"
             >
               More sales. More growth. Our websites make you money.
             </motion.p>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.4, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
               className="trust-list-container max-w-2xl mx-auto"
             >
               <ul className="trust-list list-none space-y-4 flex flex-col items-center">
@@ -270,9 +270,9 @@ export default function Trust() {
             </motion.div>
 
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.6, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.6 }}
               className="trust-cta text-center mt-8"
             >
               <p className="trust-cta-heading text-xl font-semibold mb-4">
@@ -295,9 +295,9 @@ export default function Trust() {
       {/* ========== SERVICES SECTION ========== */}
       <section className="trust-services-section px-4 md:px-8 lg:px-16 xl:px-24 mt-16">
         <motion.h2
-          initial={{opacity: 0, y: -20}}
-          animate={{opacity: 1, y: 0}}
-          transition={{duration: 0.6}}
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
           className="trust-services-title text-3xl font-bold text-center mb-8"
         >
           Our Services
@@ -307,10 +307,10 @@ export default function Trust() {
             <motion.div
               key={index}
               className="trust-service-card shadow-lg rounded-lg p-6 text-center"
-              initial={{opacity: 0, scale: 0.8}}
-              animate={{opacity: 1, scale: 1}}
-              transition={{duration: 0.5, delay: index * 0.2}}
-              whileHover={{scale: 1.05}}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              whileHover={{ scale: 1.05 }}
             >
               <span className="trust-service-icon text-4xl">
                 {service.icon}
@@ -323,43 +323,43 @@ export default function Trust() {
         </div>
         <motion.button
           className="trust-services-cta-button py-3 px-6 text-lg mt-8 block mx-auto rounded-lg shadow-md"
-          whileHover={{scale: 1.1}}
+          whileHover={{ scale: 1.1 }}
           onClick={() => navigate("/services")}
         >
           Learn More →
         </motion.button>
       </section>
-      <section className="alameen-trust-section px-4 md:px-8 lg:px-16 xl:px-24 mt-16">
-        <Card className="alameen-trust-card shadow-lg rounded-lg overflow-hidden">
-          <CardContent className="alameen-trust-card-content p-8">
+      <section className="Apex-trust-section px-4 md:px-8 lg:px-16 xl:px-24 mt-16">
+        <Card className="Apex-trust-card shadow-lg rounded-lg overflow-hidden">
+          <CardContent className="Apex-trust-card-content p-8">
             <motion.h2
-              initial={{opacity: 0, y: -20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{duration: 0.6}}
-              className="alameen-trust-heading text-3xl font-bold text-center mb-4"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="Apex-trust-heading text-3xl font-bold text-center mb-4"
             >
               🚀 Your Success Starts Here
             </motion.h2>
             <motion.p
-              initial={{opacity: 0, y: 20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{delay: 0.2, duration: 0.6}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
               className="text-lg text-center mb-8"
             >
               We create websites that make you money.
             </motion.p>
             <motion.p
-              initial={{opacity: 0, y: 20}}
-              animate={{opacity: 1, y: 0}}
-              transition={{delay: 0.4, duration: 0.6}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 0.6 }}
               className="text-base text-center mb-8"
             >
               Don’t let your competition outshine you. Get ahead now!
             </motion.p>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.6, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.6 }}
               className="max-w-2xl mx-auto"
             >
               <ul className="list-none space-y-4">
@@ -380,9 +380,9 @@ export default function Trust() {
               </ul>
             </motion.div>
             <motion.div
-              initial={{opacity: 0}}
-              animate={{opacity: 1}}
-              transition={{delay: 0.8, duration: 0.6}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.8, duration: 0.6 }}
               className="text-center mt-8"
             >
               <p className="text-xl font-semibold mb-4">
@@ -392,7 +392,7 @@ export default function Trust() {
                 className="py-3 px-6 text-lg md:text-xl"
                 onClick={() => navigate("/contact")}
               >
-                🔥 Start now with Alameen Web Agency
+                🔥 Start now with Apex Web Agency
               </Button>
             </motion.div>
           </CardContent>

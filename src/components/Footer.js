@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome
 
 function Footer() {
@@ -44,11 +44,8 @@ function Footer() {
             <h5>Contact Info</h5>
             <p>
               Email:{" "}
-              <a
-                href="mailto:alameenwebdesign01@gmail.com"
-                className="text-light"
-              >
-                alameenwebdesign01@gmail.com
+              <a href="mailto:apexagency.web@gmail.com" className="text-light">
+                apexagency.web@gmail.com
               </a>
             </p>
             <p>
@@ -59,25 +56,25 @@ function Footer() {
             </p>
             <div className="d-flex">
               <a
-                href="https://www.tiktok.com/@alameen.web.design"
+                href="https://www.tiktok.com/@apex.web.agency"
                 className="text-light me-3"
               >
                 <i className="fab fa-tiktok fa-2x"></i>
               </a>
               <a
-                href="https://www.youtube.com/@alameenwebdesign"
+                href="https://www.youtube.com/@apex.web.agency"
                 className="text-light me-3"
               >
                 <i className="fab fa-youtube fa-2x"></i>
               </a>
               <a
-                href="https://instagram.com/alameenwebdesign"
+                href="https://instagram.com/apex.web.agency"
                 className="text-light me-3"
               >
                 <i className="fab fa-instagram fa-2x"></i>
               </a>
               <a
-                href="https://www.facebook.com/share/1LCWVFNLus/"
+                href="https://www.facebook.com/apexwebagency"
                 className="text-light"
               >
                 <i className="fab fa-facebook fa-2x"></i>
@@ -108,7 +105,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p className="m-0">© 2025 Alameen Web Agency. All rights reserved.</p>
+          <p className="m-0">© 2025 Apex Web Agency. All rights reserved.</p>
         </div>
       </div>
     </footer>

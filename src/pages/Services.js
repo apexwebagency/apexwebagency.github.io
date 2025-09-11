@@ -1,5 +1,5 @@
-import React, {useEffect} from "react";
-import {useNavigate} from "react-router-dom";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   FaGlobe,
   FaShoppingCart,
@@ -7,7 +7,7 @@ import {
   FaRedo,
   FaFunnelDollar,
 } from "react-icons/fa";
-import {Button} from "../components/ui/button.js";
+import { Button } from "../components/ui/button.js";
 import "../styles/services.css";
 
 const services = [
@@ -61,9 +61,7 @@ const Services = () => {
   return (
     <section className="services-section">
       <div className="container mx-auto text-center">
-        <h2 className="services-title">
-          Alameen Web Agency – Websites That Sell
-        </h2>
+        <h2 className="services-title">Apex Web Agency – Websites That Sell</h2>
         <p className="services-description">
           We build websites that grab attention and boost sales.
         </p>

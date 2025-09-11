@@ -434,10 +434,10 @@
 }
 
 /* ===============================
-   Alameen Trust - Premium Success Section
+   Apex Trust - Premium Success Section
    =============================== */
 
-.alameen-trust-section {
+.Apex-trust-section {
   width: 100% !important;
   display: flex !important;
   justify-content: center !important;
@@ -447,7 +447,7 @@
 }
 
 /* CARD: PREMIUM LOOK */
-.alameen-trust-card {
+.Apex-trust-card {
   width: 90% !important;
   max-width: 1100px !important;
   background: #ffffff !important;
@@ -457,19 +457,19 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
 }
 
-.alameen-trust-card:hover {
+.Apex-trust-card:hover {
   transform: translateY(-6px) !important;
   box-shadow: 0 12px 50px rgba(0, 0, 0, 0.15) !important;
 }
 
 /* CONTENT: CENTERED & CLEAN */
-.alameen-trust-card-content {
+.Apex-trust-card-content {
   text-align: center !important;
   padding: 60px !important;
 }
 
 /* HEADER: POWERFUL & BOLD */
-.alameen-trust-heading {
+.Apex-trust-heading {
   font-size: 2.8rem !important;
   font-weight: bold !important;
   color: #1f2937 !important;
@@ -478,7 +478,7 @@
 }
 
 /* PARAGRAPHS: HIGHLY READABLE */
-.alameen-trust-card-content p {
+.Apex-trust-card-content p {
   font-size: 1.3rem !important;
   color: #444 !important;
   line-height: 1.8 !important;
@@ -487,7 +487,7 @@
 }
 
 /* UL LIST: ICONS + TEXT CENTERED & STYLISH */
-.alameen-trust-card-content ul {
+.Apex-trust-card-content ul {
   list-style: none !important;
   padding: 0 !important;
   margin-top: 35px !important;
@@ -498,7 +498,7 @@
 }
 
 /* LIST ITEMS: SPACIOUS, BEAUTIFUL, & CENTERED */
-.alameen-trust-card-content li {
+.Apex-trust-card-content li {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -514,20 +514,20 @@
   transition: transform 0.2s ease-in-out !important;
 }
 
-.alameen-trust-card-content li:hover {
+.Apex-trust-card-content li:hover {
   transform: translateY(-4px) !important;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08) !important;
 }
 
 /* ICONS: BIGGER & MORE ATTRACTIVE */
-.alameen-trust-card-content i {
+.Apex-trust-card-content i {
   color: #16a34a !important;
   font-size: 2rem !important;
   margin-right: 14px !important;
 }
 
 /* CTA TEXT */
-.alameen-trust-card-content .text-xl {
+.Apex-trust-card-content .text-xl {
   font-size: 1.9rem !important;
   font-weight: bold !important;
   color: #222 !important;
@@ -535,7 +535,7 @@
 }
 
 /* 🔥 BEAUTIFUL CTA BUTTON */
-.alameen-trust-card-content .py-3 {
+.Apex-trust-card-content .py-3 {
   padding: 16px 34px !important;
   font-size: 1.4rem !important;
   font-weight: bold !important;
@@ -550,7 +550,7 @@
 }
 
 /* 🔥 CTA BUTTON: GLOW EFFECT */
-.alameen-trust-card-content .py-3::before {
+.Apex-trust-card-content .py-3::before {
   content: "" !important;
   position: absolute !important;
   top: -100% !important;
@@ -566,12 +566,12 @@
 }
 
 /* 🔥 CTA BUTTON: HOVER EFFECT */
-.alameen-trust-card-content .py-3:hover {
+.Apex-trust-card-content .py-3:hover {
   background: linear-gradient(90deg, #ff8c00, #ff6a00) !important;
   box-shadow: 0 8px 22px rgba(255, 108, 0, 0.4) !important;
 }
 
-.alameen-trust-card-content .py-3:hover::before {
+.Apex-trust-card-content .py-3:hover::before {
   top: 50% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
@@ -580,49 +580,49 @@
 /* RESPONSIVENESS */
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
-  .alameen-trust-section {
+  .Apex-trust-section {
     padding: 60px 15px !important; /* Reduce padding for better fit */
   }
 
-  .alameen-trust-card {
+  .Apex-trust-card {
     width: 95% !important;
     max-width: 500px !important; /* Prevent excessive width */
     padding: 20px !important;
   }
 
-  .alameen-trust-heading {
+  .Apex-trust-heading {
     font-size: 2rem !important; /* Slightly smaller for better fit */
     line-height: 1.3 !important;
     margin-bottom: 10px !important;
   }
 
-  .alameen-trust-card-content {
+  .Apex-trust-card-content {
     padding: 30px 20px !important; /* Reduce excessive padding */
   }
 
-  .alameen-trust-card-content p {
+  .Apex-trust-card-content p {
     font-size: 1.1rem !important;
     line-height: 1.6 !important;
     margin-bottom: 15px !important;
   }
 
-  .alameen-trust-card-content ul {
+  .Apex-trust-card-content ul {
     gap: 15px !important; /* Reduce space for compact view */
   }
 
-  .alameen-trust-card-content li {
+  .Apex-trust-card-content li {
     font-size: 1rem !important;
     width: 100% !important;
     padding: 14px 18px !important;
   }
 
-  .alameen-trust-card-content .py-3 {
+  .Apex-trust-card-content .py-3 {
     font-size: 1.2rem !important;
     padding: 14px 28px !important;
     width: 100% !important; /* Make button full-width */
   }
 
-  .alameen-trust-card-content i {
+  .Apex-trust-card-content i {
     font-size: 1.5rem !important;
     margin-right: 10px !important;
   }

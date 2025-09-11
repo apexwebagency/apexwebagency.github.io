@@ -1,9 +1,9 @@
 // Import necessary hooks & dependencies
-import React, {useState, useEffect} from "react";
-import {useNavigate} from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import {Link} from "react-router-dom";
-import {motion} from "framer-motion";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import testimonials from "../data/testimonials.js";
 import SocialProof from "../components/SocialProof.js";
 import ValueShowcase2 from "../components/ValueShowcase2.js";
@@ -44,7 +44,7 @@ function Home() {
 
   const trackProjectClick = (projectName) => {
     if (typeof fbq !== "undefined") {
-      fbq("track", "ViewContent", {content_name: projectName});
+      fbq("track", "ViewContent", { content_name: projectName });
     }
   };
 
@@ -67,11 +67,11 @@ function Home() {
   }, []);
 
   // Form State & Submission
-  const [formData, setFormData] = useState({name: "", email: ""});
+  const [formData, setFormData] = useState({ name: "", email: "" });
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
-    setFormData({...formData, [e.target.name]: e.target.value});
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
@@ -88,7 +88,7 @@ function Home() {
         });
       }
       setMessage(response.data.message);
-      setFormData({name: "", email: ""}); // Reset form
+      setFormData({ name: "", email: "" }); // Reset form
     } catch (error) {
       console.error(error); // ✅ Still good for debugging
       setMessage("Error submitting form. Please try again.");
@@ -174,14 +174,12 @@ function Home() {
         </p>
       </div>
 
-      {/* Why Clients Love Alameen Web Agency */}
+      {/* Why Clients Love Apex Web Agency */}
       <section className="why-clients-love-section">
         <div className="why-clients-love-container">
           <h2 className="why-clients-love-title" data-aos="fade-up">
             💡 Why Clients Love{" "}
-            <span className="why-clients-love-highlight">
-              Alameen Web Agency
-            </span>
+            <span className="why-clients-love-highlight">Apex Web Agency</span>
           </h2>
           <p
             className="why-clients-love-description"
@@ -416,9 +414,9 @@ function Home() {
       {/* ========== SERVICES SECTION ========== */}
       <section className="trust-services-section px-4 md:px-8 lg:px-16 xl:px-24 mt-16">
         <motion.h2
-          initial={{opacity: 0, y: -20}}
-          animate={{opacity: 1, y: 0}}
-          transition={{duration: 0.6}}
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
           className="trust-services-title text-3xl font-bold text-center mb-8"
         >
           Our Services
@@ -428,10 +426,10 @@ function Home() {
             <motion.div
               key={index}
               className="trust-service-card shadow-lg rounded-lg p-6 text-center"
-              initial={{opacity: 0, scale: 0.8}}
-              animate={{opacity: 1, scale: 1}}
-              transition={{duration: 0.5, delay: index * 0.2}}
-              whileHover={{scale: 1.05}}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              whileHover={{ scale: 1.05 }}
             >
               <span className="trust-service-icon text-4xl">
                 {service.icon}
@@ -444,10 +442,10 @@ function Home() {
         </div>
         <motion.button
           className="trust-services-cta-button py-3 px-6 text-lg mt-8 block mx-auto rounded-lg shadow-md"
-          whileHover={{scale: 1.1}}
+          whileHover={{ scale: 1.1 }}
           onClick={() => {
             if (typeof fbq !== "undefined") {
-              fbq("track", "ViewContent", {content_name: "Services Page"});
+              fbq("track", "ViewContent", { content_name: "Services Page" });
             }
             navigate("/services");
           }}
@@ -478,7 +476,7 @@ function Home() {
                 alert("Please use a mobile device to call.");
               } else {
                 if (typeof fbq !== "undefined") {
-                  fbq("track", "Contact", {content_name: "Phone Call"});
+                  fbq("track", "Contact", { content_name: "Phone Call" });
                 }
               }
             }}
@@ -507,7 +505,7 @@ function Home() {
             rel="noopener noreferrer"
             onClick={() => {
               if (typeof fbq !== "undefined") {
-                fbq("track", "Contact", {content_name: "WhatsApp Chat"});
+                fbq("track", "Contact", { content_name: "WhatsApp Chat" });
               }
             }}
           >

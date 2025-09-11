@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 import "../../styles/PrivacyPolicy.css"; // Import a CSS file for styling
 
 const PrivacyPolicy = () => {
@@ -22,18 +22,18 @@ const PrivacyPolicy = () => {
           <p className="privacy-section-1-paragraph-1">
             Welcome to{" "}
             <strong className="privacy-section-1-strong">
-              Alameen Web Agency
+              Apex Web Agency
             </strong>
             . We are committed to protecting your personal data and respecting
             your privacy. This Privacy Policy explains how we collect, use, and
             protect your information when you visit our website{" "}
             <a
-              href="https://alameenwebdesign.github.io/"
+              href="https://apexwebagency.github.io/"
               target="_blank"
               rel="noopener noreferrer"
               className="privacy-link"
             >
-              https://alameenwebdesign.github.io/
+              https://apexwebagency.github.io/
             </a>
             .
           </p>
@@ -242,10 +242,10 @@ const PrivacyPolicy = () => {
           <p className="privacy-section-8-paragraph">
             To exercise your rights, contact us at{" "}
             <a
-              href="mailto:alameenwebdesign01@gmail.com"
+              href="mailto:apexagency.web@gmail.com"
               className="privacy-section-8-link"
             >
-              alameenwebdesign01@gmail.com
+              apexagency.web@gmail.com
             </a>
             .
           </p>
@@ -302,10 +302,10 @@ const PrivacyPolicy = () => {
             📧{" "}
             <strong className="privacy-section-13-strong-email">Email:</strong>{" "}
             <a
-              href="mailto:alameenwebdesign01@gmail.com"
+              href="mailto:apexagency.web@gmail.com"
               className="privacy-section-13-link-email"
             >
-              alameenwebdesign01@gmail.com
+              apexagency.web@gmail.com
             </a>
           </p>
           <p className="privacy-section-13-paragraph-2">
@@ -319,7 +319,7 @@ const PrivacyPolicy = () => {
 
         <footer className="privacy-footer">
           <p className="privacy-footer-text">
-            © 2025 Alameen Web Agency. All rights reserved.
+            © 2025 Apex Web Agency. All rights reserved.
           </p>
         </footer>
       </div>
