@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d7924b0.css",
-    "main.js": "/static/js/main.f2a20136.js",
+    "main.css": "/static/css/main.08a8d6db.css",
+    "main.js": "/static/js/main.b98030bd.js",
     "static/media/portfoliovid.mp4": "/static/media/portfoliovid.9bd274952f5e0add84eb.mp4",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/professional-image.jpg": "/static/media/professional-image.073cc761f07b40567c0f.jpg",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/work-in-action.jpg": "/static/media/work-in-action.acfb063bbe10c4cfcb42.jpg",
     "static/media/work.jpg": "/static/media/work.5ff42522ec7e9b9402ae.jpg",
@@ -34,11 +34,11 @@
     "static/media/brand3.webp": "/static/media/brand3.9208200e7b47a221c0de.webp",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
-    "main.4d7924b0.css.map": "/static/css/main.4d7924b0.css.map",
-    "main.f2a20136.js.map": "/static/js/main.f2a20136.js.map"
+    "main.08a8d6db.css.map": "/static/css/main.08a8d6db.css.map",
+    "main.b98030bd.js.map": "/static/js/main.b98030bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d7924b0.css",
-    "static/js/main.f2a20136.js"
+    "static/css/main.08a8d6db.css",
+    "static/js/main.b98030bd.js"
   ]
 }
